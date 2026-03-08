@@ -13,7 +13,7 @@ import math
 from typing import Optional, List
 from datetime import datetime
 
-from fastapi import APIRouter, Depends, Query, HTTPException
+from fastapi import APIRouter, Depends, Query, HTTPException, Request
 from sqlalchemy import select, func, or_, and_, desc, asc
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -29,8 +29,13 @@ router = APIRouter(prefix="/api/v1", tags=["programs"])
 
 # ─── Dependency ───
 
-async def get_db(request) -> AsyncSession:
+async def get_db(request: Request) -> AsyncSession:
     """Get async DB session from app state."""
+    if not hasattr(request.app.state, "session_factory"):
+        raise HTTPException(
+            status_code=503,
+            detail="Database not available",
+        )
     async with request.app.state.session_factory() as session:
         yield session
 
@@ -146,16 +151,7 @@ async def list_programs(
     )
 
 
-# ─── Single Program ───
 
-@router.get("/programs/{program_id}", response_model=ProgramDetail)
-async def get_program(program_id: int, db: AsyncSession = Depends(get_db)):
-    """Get full program detail."""
-    result = await db.execute(select(Program).where(Program.id == program_id))
-    program = result.scalar_one_or_none()
-    if not program:
-        raise HTTPException(status_code=404, detail="Program not found")
-    return ProgramDetail.model_validate(program)
 
 
 # ─── Map Endpoint with Clustering ───
@@ -368,6 +364,18 @@ async def get_stats(db: AsyncSession = Depends(get_db)):
         by_state=by_state,
         last_scraped=last_scraped,
     )
+
+
+# ─── Single Program ───
+
+@router.get("/programs/{program_id}", response_model=ProgramDetail)
+async def get_program(program_id: int, db: AsyncSession = Depends(get_db)):
+    """Get full program detail."""
+    result = await db.execute(select(Program).where(Program.id == program_id))
+    program = result.scalar_one_or_none()
+    if not program:
+        raise HTTPException(status_code=404, detail="Program not found")
+    return ProgramDetail.model_validate(program)
 
 
 # ─── Lookup Endpoints ───
