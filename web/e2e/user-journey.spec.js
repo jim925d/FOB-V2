@@ -2,29 +2,29 @@
 import { test, expect } from '@playwright/test';
 
 const ROUTES = [
-  { path: '/', name: 'Home', heading: 'Home' },
-  { path: '/careers/pathfinder', name: 'Pathfinder', heading: 'Where you are' },
+  { path: '/', name: 'Home', heading: 'Forward Operating Base' },
+  { path: '/careers/pathfinder', name: 'Pathfinder', heading: 'Where you are →' },
   { path: '/careers/pathfinder/map', name: 'Career Map', heading: 'Career Map' },
   { path: '/skillbridge', name: 'SkillBridge', heading: 'SkillBridge Explorer' },
-  { path: '/benefits', name: 'Benefits', heading: 'Benefits' },
-  { path: '/communities', name: 'Communities', heading: 'Communities' },
+  { path: '/benefits', name: 'Benefits', heading: 'VA Benefits & Resources' },
+  { path: '/communities', name: 'Communities', heading: 'Veteran Communities' },
   { path: '/employment/ergs', name: 'ERGs', heading: 'ERG Directory' },
   { path: '/employment/networking', name: 'Networking', heading: 'Employment Networking' },
-  { path: '/news', name: 'News', heading: 'VA News' },
-  { path: '/dashboard', name: 'Dashboard', heading: 'Dashboard' },
+  { path: '/news', name: 'News', heading: 'VA & Veteran News' },
+  { path: '/dashboard', name: 'Dashboard', heading: 'Your Dashboard' },
 ];
 
 test.describe('FOB site — user journey', () => {
   test('home page loads and shows app shell', async ({ page }) => {
     await page.goto('/', { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('h1', { state: 'visible', timeout: 15000 });
-    await expect(page.locator('h1')).toContainText('Home');
+    await expect(page.locator('h1')).toContainText('Forward Operating Base');
     await expect(page.getByRole('link', { name: /THE FOB/i }).first()).toBeVisible();
     await expect(page.getByRole('button', { name: /Sign In/i })).toBeVisible();
   });
 
   test('every main route loads with correct content', async ({ page }) => {
-    for (const { path, name, heading } of ROUTES) {
+    for (const { path, heading } of ROUTES) {
       await page.goto(path, { waitUntil: 'domcontentloaded' });
       await expect(page.locator('h1')).toContainText(heading, { timeout: 15000 });
     }
@@ -58,7 +58,7 @@ test.describe('FOB site — user journey', () => {
     await page.waitForSelector('h1', { state: 'visible', timeout: 15000 });
     await page.getByRole('navigation').getByRole('link', { name: /THE FOB/i }).click();
     await expect(page).toHaveURL('/');
-    await expect(page.locator('h1')).toContainText('Home');
+    await expect(page.locator('h1')).toContainText('Forward Operating Base');
   });
 
   test('404 page shows and Back to Home works', async ({ page }) => {
@@ -67,7 +67,7 @@ test.describe('FOB site — user journey', () => {
     await expect(page.getByRole('link', { name: 'Back to Home' })).toBeVisible();
     await page.getByRole('link', { name: 'Back to Home' }).click();
     await expect(page).toHaveURL('/');
-    await expect(page.locator('h1')).toContainText('Home');
+    await expect(page.locator('h1')).toContainText('Forward Operating Base');
   });
 
   test('Sign In opens auth modal', async ({ page }) => {

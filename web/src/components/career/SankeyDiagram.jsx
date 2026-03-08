@@ -203,7 +203,7 @@ function DetailPanel({ item }) {
   );
 }
 
-export default function SankeyDiagram({ sankey: apiSankey, title, className = "" }) {
+export default function SankeyDiagram({ sankey: apiSankey, className = "" }) {
   const cRef = useRef(null);
   const [W, setW] = useState(1000);
   const H = 720;

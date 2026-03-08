@@ -1,15 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const STORAGE_KEY = "fob_crisis_bar_dismissed";
 
 export default function CrisisBar() {
-  const [dismissed, setDismissed] = useState(false);
-
-  useEffect(() => {
-    setDismissed(sessionStorage.getItem(STORAGE_KEY) === "true");
-  }, []);
+  const [dismissed, setDismissed] = useState(
+    () => typeof sessionStorage !== "undefined" && sessionStorage.getItem(STORAGE_KEY) === "true"
+  );
 
   const handleDismiss = () => {
     sessionStorage.setItem(STORAGE_KEY, "true");

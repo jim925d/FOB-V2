@@ -168,7 +168,7 @@ export default function CareerPathfinderPage() {
       };
       const roadmap = await runRoadmap(payload);
       navigate("/careers/pathfinder/map", { state: { roadmap, inputs: payload } });
-    } catch (_) {
+    } catch {
       // error surfaced via roadmapError
     }
   };
