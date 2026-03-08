@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  /* FOB palette — generates bg-fob-*, text-fob-*, border-fob-*, etc. */
+  --color-fob-accent: #3ECF8E;
+  --color-fob-copper: #C8956A;
+  --color-fob-info: #60A5FA;
+  --color-fob-warn: #F5A623;
+  --color-fob-purple: #A855F7;
+  --color-fob-orange: #E08A52;
+}
+
+:root {
+  /* ── shadcn required variables (mapped to FOB tokens) ── */
+  --background: 210 15% 7%;           /* #0F1214 */
+  --foreground: 30 14% 93%;           /* #F0EDEA */
+  
+  --card: 210 12% 10%;                /* #171B1E */
+  --card-foreground: 30 14% 93%;      /* #F0EDEA */
+  
+  --popover: 210 10% 12%;             /* #1E2326 */
+  --popover-foreground: 30 14% 93%;
+  
+  --primary: 155 66% 53%;             /* #3ECF8E accent */
+  --primary-foreground: 210 15% 7%;   /* dark bg for text on accent */
+  
+  --secondary: 210 10% 14%;           /* #252A2E */
+  --secondary-foreground: 200 8% 80%; /* #C5CCD0 */
+  
+  --muted: 210 8% 16%;               /* #2A2F34 */
+  --muted-foreground: 200 6% 57%;    /* #8A9399 */
+  
+  --accent: 210 10% 14%;
+  --accent-foreground: 30 14% 93%;
+  
+  --destructive: 0 84% 60%;          /* #EF4444 */
+  --destructive-foreground: 0 0% 100%;
+  
+  --border: 210 8% 16%;              /* #252A2E */
+  --input: 210 10% 14%;              /* #1E2326 */
+  --ring: 155 66% 53%;               /* #3ECF8E */
+  
+  --radius: 0.75rem;                  /* 12px */
+
+  /* ── FOB Extended Tokens ── */
+  --color-bg-primary: #0F1214;
+  --color-bg-secondary: #171B1E;
+  --color-bg-tertiary: #1E2326;
+  --color-bg-hover: #252A2E;
+  --color-bg-elevated: #2A2F34;
+
+  --color-text-primary: #F0EDEA;
+  --color-text-secondary: #C5CCD0;
+  --color-text-muted: #8A9399;
+  --color-text-dim: #566069;
+
+  --color-accent: #3ECF8E;
+  --color-accent-hover: #35B87D;
+  --color-accent-dim: rgba(62, 207, 142, 0.15);
+  --color-border-accent: rgba(62, 207, 142, 0.3);
+
+  --color-copper: #C8956A;
+  --color-copper-dim: rgba(200, 149, 106, 0.12);
+
+  --color-info: #60A5FA;
+  --color-info-dim: rgba(96, 165, 250, 0.15);
+  --color-warning: #F5A623;
+  --color-warning-dim: rgba(245, 166, 35, 0.15);
+  --color-danger: #EF4444;
+  --color-purple: #A855F7;
+  --color-purple-dim: rgba(168, 85, 247, 0.15);
+  --color-orange: #E08A52;
+
+  --color-border: #252A2E;
+  --color-border-light: #2F353A;
+
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Force dark mode globally — no .dark class needed */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}

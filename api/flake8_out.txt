@@ -1,0 +1,24 @@
+app/routes\programs.py:331:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:380:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/scrapers\skillbridge_scraper.py:17:1: F401 'datetime.datetime' imported but unused
+app/scrapers\skillbridge_scraper.py:19:1: F401 'dataclasses.field' imported but unused
+app/services\erg_service.py:10:1: F401 'sqlalchemy.and_' imported but unused
+app/services\erg_service.py:131:102: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\erg_service.py:134:95: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\geocoding.py:18:1: F401 'typing.Tuple' imported but unused
+app/services\networking_events_scraper.py:10:1: F401 'sqlalchemy.select' imported but unused
+app/services\news_scraper.py:11:1: F401 'datetime.timezone' imported but unused
+app/services\pipeline.py:24:1: F401 'app.scrapers.skillbridge_scraper.ScrapedProgram' imported but unused
+app/services\pipeline.py:203:84: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.CareerProgressionPath' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.Employer' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.EmployerVetStatus' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.Milestone' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.MilestonePhase' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.RoadmapMetadata' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.SalaryProgressionPoint' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.SkillBridgeLink' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.YellowRibbonSchool' imported but unused
+app/services\roadmap_generator.py:589:9: F841 local variable 'cumulative_offset' is assigned to but never used
+app/services\sankey_builder.py:7:1: F401 'typing.Any' imported but unused
+app/services\skillbridge_enrichment.py:12:1: F401 'sqlalchemy.func' imported but unused

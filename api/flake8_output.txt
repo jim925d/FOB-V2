@@ -1,0 +1,1247 @@
+﻿app/config.py:11:80: E501 line too long (91 > 79 characters)
+app/config.py:52:80: E501 line too long (94 > 79 characters)
+app/config.py:55:80: E501 line too long (83 > 79 characters)
+app/config.py:56:80: E501 line too long (107 > 79 characters)
+app/config.py:57:80: E501 line too long (99 > 79 characters)
+app/config.py:58:80: E501 line too long (100 > 79 characters)
+app/data\labor_occupations_loader.py:20:80: E501 line too long (122 > 79 characters)
+app/data\labor_occupations_loader.py:28:80: E501 line too long (96 > 79 characters)
+app/data\labor_occupations_loader.py:43:80: E501 line too long (86 > 79 characters)
+app/data\labor_occupations_loader.py:45:80: E501 line too long (102 > 79 characters)
+app/data\labor_occupations_loader.py:54:80: E501 line too long (87 > 79 characters)
+app/data\labor_occupations_loader.py:63:80: E501 line too long (115 > 79 characters)
+app/data\labor_occupations_loader.py:64:80: E501 line too long (92 > 79 characters)
+app/data\mos_career_mapping_loader.py:16:80: E501 line too long (84 > 79 characters)
+app/data\mos_career_mapping_loader.py:17:1: E302 expected 2 blank lines, found 0
+app/data\mos_career_mapping_loader.py:20:80: E501 line too long (182 > 79 characters)
+app/data\mos_career_mapping_loader.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+app/data\mos_career_mapping_loader.py:30:80: E501 line too long (83 > 79 characters)
+app/data\mos_career_mapping_loader.py:38:80: E501 line too long (101 > 79 characters)
+app/data\mos_career_mapping_loader.py:51:80: E501 line too long (80 > 79 characters)
+app/data\mos_career_mapping_loader.py:55:80: E501 line too long (91 > 79 characters)
+app/data\mos_career_mapping_loader.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+app/data\mos_career_mapping_loader.py:67:80: E501 line too long (129 > 79 characters)
+app/data\mos_career_mapping_loader.py:81:80: E501 line too long (82 > 79 characters)
+app/data\mos_career_mapping_loader.py:87:5: F824 `global _MOS_CAREER_MAPPING` is unused: name is never assigned in scope
+app/data\mos_career_mapping_loader.py:94:80: E501 line too long (102 > 79 characters)
+app/data\mos_career_mapping_loader.py:98:80: E501 line too long (168 > 79 characters)
+app/data\mos_career_mapping_loader.py:121:80: E501 line too long (83 > 79 characters)
+app/data\mos_career_mapping_loader.py:127:80: E501 line too long (186 > 79 characters)
+app/data\mos_career_mapping_loader.py:139:80: E501 line too long (117 > 79 characters)
+app/data\mos_career_mapping_loader.py:152:80: E501 line too long (103 > 79 characters)
+app/data\mos_career_mapping_loader.py:158:80: E501 line too long (160 > 79 characters)
+app/data\mos_career_mapping_loader.py:164:80: E501 line too long (90 > 79 characters)
+app/data\mos_career_mapping_loader.py:166:80: E501 line too long (123 > 79 characters)
+app/data\mos_titles.py:4:80: E501 line too long (94 > 79 characters)
+app/data\mos_titles.py:7:80: E501 line too long (88 > 79 characters)
+app/data\progression_paths.py:19:1: W293 blank line contains whitespace
+app/data\progression_paths.py:26:80: E501 line too long (132 > 79 characters)
+app/data\progression_paths.py:28:80: E501 line too long (108 > 79 characters)
+app/data\progression_paths.py:36:80: E501 line too long (341 > 79 characters)
+app/data\progression_paths.py:37:80: E501 line too long (212 > 79 characters)
+app/data\progression_paths.py:39:80: E501 line too long (100 > 79 characters)
+app/data\progression_paths.py:40:80: E501 line too long (86 > 79 characters)
+app/data\progression_paths.py:41:80: E501 line too long (82 > 79 characters)
+app/data\progression_paths.py:50:80: E501 line too long (187 > 79 characters)
+app/data\progression_paths.py:62:80: E501 line too long (143 > 79 characters)
+app/data\progression_paths.py:63:80: E501 line too long (181 > 79 characters)
+app/data\progression_paths.py:70:80: E501 line too long (239 > 79 characters)
+app/data\progression_paths.py:81:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:92:80: E501 line too long (80 > 79 characters)
+app/data\progression_paths.py:106:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:111:80: E501 line too long (86 > 79 characters)
+app/data\progression_paths.py:128:80: E501 line too long (89 > 79 characters)
+app/data\progression_paths.py:134:80: E501 line too long (88 > 79 characters)
+app/data\progression_paths.py:137:80: E501 line too long (86 > 79 characters)
+app/data\progression_paths.py:143:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:149:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:152:80: E501 line too long (243 > 79 characters)
+app/data\progression_paths.py:153:80: E501 line too long (140 > 79 characters)
+app/data\progression_paths.py:161:80: E501 line too long (271 > 79 characters)
+app/data\progression_paths.py:173:80: E501 line too long (82 > 79 characters)
+app/data\progression_paths.py:174:80: E501 line too long (98 > 79 characters)
+app/data\progression_paths.py:181:80: E501 line too long (89 > 79 characters)
+app/data\progression_paths.py:182:80: E501 line too long (105 > 79 characters)
+app/data\progression_paths.py:189:80: E501 line too long (102 > 79 characters)
+app/data\progression_paths.py:190:80: E501 line too long (113 > 79 characters)
+app/data\progression_paths.py:197:80: E501 line too long (88 > 79 characters)
+app/data\progression_paths.py:198:80: E501 line too long (96 > 79 characters)
+app/data\progression_paths.py:205:80: E501 line too long (88 > 79 characters)
+app/data\progression_paths.py:206:80: E501 line too long (98 > 79 characters)
+app/data\progression_paths.py:212:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:215:80: E501 line too long (92 > 79 characters)
+app/data\progression_paths.py:221:80: E501 line too long (106 > 79 characters)
+app/data\progression_paths.py:227:80: E501 line too long (85 > 79 characters)
+app/data\progression_paths.py:233:80: E501 line too long (85 > 79 characters)
+app/data\progression_paths.py:234:80: E501 line too long (90 > 79 characters)
+app/data\progression_paths.py:237:80: E501 line too long (237 > 79 characters)
+app/data\progression_paths.py:238:80: E501 line too long (196 > 79 characters)
+app/data\progression_paths.py:246:80: E501 line too long (229 > 79 characters)
+app/data\progression_paths.py:260:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:268:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:271:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:277:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:280:80: E501 line too long (80 > 79 characters)
+app/data\progression_paths.py:283:80: E501 line too long (104 > 79 characters)
+app/data\progression_paths.py:290:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:291:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:294:80: E501 line too long (230 > 79 characters)
+app/data\progression_paths.py:295:80: E501 line too long (239 > 79 characters)
+app/data\progression_paths.py:303:80: E501 line too long (275 > 79 characters)
+app/data\progression_paths.py:312:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:328:80: E501 line too long (107 > 79 characters)
+app/data\progression_paths.py:334:80: E501 line too long (90 > 79 characters)
+app/data\progression_paths.py:337:80: E501 line too long (85 > 79 characters)
+app/data\progression_paths.py:340:80: E501 line too long (116 > 79 characters)
+app/data\progression_paths.py:346:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:349:80: E501 line too long (244 > 79 characters)
+app/data\progression_paths.py:350:80: E501 line too long (251 > 79 characters)
+app/data\progression_paths.py:353:80: E501 line too long (112 > 79 characters)
+app/data\progression_paths.py:354:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:363:80: E501 line too long (127 > 79 characters)
+app/data\progression_paths.py:365:80: E501 line too long (103 > 79 characters)
+app/data\progression_paths.py:373:80: E501 line too long (315 > 79 characters)
+app/data\progression_paths.py:374:80: E501 line too long (241 > 79 characters)
+app/data\progression_paths.py:376:80: E501 line too long (93 > 79 characters)
+app/data\progression_paths.py:377:80: E501 line too long (103 > 79 characters)
+app/data\progression_paths.py:378:80: E501 line too long (133 > 79 characters)
+app/data\progression_paths.py:379:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:387:80: E501 line too long (137 > 79 characters)
+app/data\progression_paths.py:393:80: E501 line too long (80 > 79 characters)
+app/data\progression_paths.py:399:80: E501 line too long (255 > 79 characters)
+app/data\progression_paths.py:400:80: E501 line too long (145 > 79 characters)
+app/data\progression_paths.py:407:80: E501 line too long (178 > 79 characters)
+app/data\progression_paths.py:413:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:414:80: E501 line too long (89 > 79 characters)
+app/data\progression_paths.py:418:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:429:80: E501 line too long (91 > 79 characters)
+app/data\progression_paths.py:442:80: E501 line too long (99 > 79 characters)
+app/data\progression_paths.py:445:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:448:80: E501 line too long (100 > 79 characters)
+app/data\progression_paths.py:454:80: E501 line too long (98 > 79 characters)
+app/data\progression_paths.py:460:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:462:80: E501 line too long (187 > 79 characters)
+app/data\progression_paths.py:470:80: E501 line too long (237 > 79 characters)
+app/data\progression_paths.py:482:80: E501 line too long (104 > 79 characters)
+app/data\progression_paths.py:483:80: E501 line too long (115 > 79 characters)
+app/data\progression_paths.py:484:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:490:80: E501 line too long (89 > 79 characters)
+app/data\progression_paths.py:491:80: E501 line too long (96 > 79 characters)
+app/data\progression_paths.py:498:80: E501 line too long (91 > 79 characters)
+app/data\progression_paths.py:499:80: E501 line too long (85 > 79 characters)
+app/data\progression_paths.py:506:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:507:80: E501 line too long (107 > 79 characters)
+app/data\progression_paths.py:508:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:513:80: E501 line too long (85 > 79 characters)
+app/data\progression_paths.py:514:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:515:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:518:80: E501 line too long (220 > 79 characters)
+app/data\progression_paths.py:519:80: E501 line too long (199 > 79 characters)
+app/data\progression_paths.py:527:80: E501 line too long (201 > 79 characters)
+app/data\progression_paths.py:551:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:554:80: E501 line too long (207 > 79 characters)
+app/data\progression_paths.py:562:80: E501 line too long (261 > 79 characters)
+app/data\progression_paths.py:569:80: E501 line too long (228 > 79 characters)
+app/data\progression_paths.py:570:80: E501 line too long (276 > 79 characters)
+app/data\progression_paths.py:573:80: E501 line too long (123 > 79 characters)
+app/data\progression_paths.py:583:80: E501 line too long (181 > 79 characters)
+app/data\progression_paths.py:584:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:585:80: E501 line too long (98 > 79 characters)
+app/data\progression_paths.py:593:80: E501 line too long (305 > 79 characters)
+app/data\progression_paths.py:594:80: E501 line too long (234 > 79 characters)
+app/data\progression_paths.py:596:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:597:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:598:80: E501 line too long (115 > 79 characters)
+app/data\progression_paths.py:606:80: E501 line too long (135 > 79 characters)
+app/data\progression_paths.py:618:80: E501 line too long (201 > 79 characters)
+app/data\progression_paths.py:619:80: E501 line too long (167 > 79 characters)
+app/data\progression_paths.py:626:80: E501 line too long (198 > 79 characters)
+app/data\progression_paths.py:646:80: E501 line too long (100 > 79 characters)
+app/data\progression_paths.py:652:80: E501 line too long (88 > 79 characters)
+app/data\progression_paths.py:656:80: E501 line too long (218 > 79 characters)
+app/data\progression_paths.py:664:80: E501 line too long (214 > 79 characters)
+app/data\progression_paths.py:676:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:677:80: E501 line too long (109 > 79 characters)
+app/data\progression_paths.py:684:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:685:80: E501 line too long (104 > 79 characters)
+app/data\progression_paths.py:692:80: E501 line too long (91 > 79 characters)
+app/data\progression_paths.py:693:80: E501 line too long (102 > 79 characters)
+app/data\progression_paths.py:698:80: E501 line too long (203 > 79 characters)
+app/data\progression_paths.py:706:80: E501 line too long (206 > 79 characters)
+app/data\progression_paths.py:733:80: E501 line too long (226 > 79 characters)
+app/data\progression_paths.py:740:80: E501 line too long (240 > 79 characters)
+app/data\progression_paths.py:741:80: E501 line too long (255 > 79 characters)
+app/data\progression_paths.py:744:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:754:80: E501 line too long (155 > 79 characters)
+app/data\progression_paths.py:756:80: E501 line too long (95 > 79 characters)
+app/data\progression_paths.py:764:80: E501 line too long (306 > 79 characters)
+app/data\progression_paths.py:765:80: E501 line too long (214 > 79 characters)
+app/data\progression_paths.py:767:80: E501 line too long (113 > 79 characters)
+app/data\progression_paths.py:768:80: E501 line too long (104 > 79 characters)
+app/data\progression_paths.py:769:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:770:80: E501 line too long (98 > 79 characters)
+app/data\progression_paths.py:778:80: E501 line too long (193 > 79 characters)
+app/data\progression_paths.py:791:80: E501 line too long (211 > 79 characters)
+app/data\progression_paths.py:792:80: E501 line too long (184 > 79 characters)
+app/data\progression_paths.py:799:80: E501 line too long (200 > 79 characters)
+app/data\progression_paths.py:818:80: E501 line too long (102 > 79 characters)
+app/data\progression_paths.py:821:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:824:80: E501 line too long (186 > 79 characters)
+app/data\progression_paths.py:825:80: E501 line too long (173 > 79 characters)
+app/data\progression_paths.py:833:80: E501 line too long (190 > 79 characters)
+app/data\progression_paths.py:845:80: E501 line too long (95 > 79 characters)
+app/data\progression_paths.py:846:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:854:80: E501 line too long (108 > 79 characters)
+app/data\progression_paths.py:867:80: E501 line too long (170 > 79 characters)
+app/data\progression_paths.py:875:80: E501 line too long (175 > 79 characters)
+app/data\progression_paths.py:896:80: E501 line too long (185 > 79 characters)
+app/data\progression_paths.py:897:80: E501 line too long (211 > 79 characters)
+app/data\progression_paths.py:905:80: E501 line too long (167 > 79 characters)
+app/data\progression_paths.py:912:80: E501 line too long (220 > 79 characters)
+app/data\progression_paths.py:913:80: E501 line too long (196 > 79 characters)
+app/data\progression_paths.py:916:80: E501 line too long (102 > 79 characters)
+app/data\progression_paths.py:925:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:926:80: E501 line too long (230 > 79 characters)
+app/data\progression_paths.py:927:80: E501 line too long (83 > 79 characters)
+app/data\progression_paths.py:928:80: E501 line too long (113 > 79 characters)
+app/data\progression_paths.py:936:80: E501 line too long (331 > 79 characters)
+app/data\progression_paths.py:937:80: E501 line too long (213 > 79 characters)
+app/data\progression_paths.py:939:80: E501 line too long (90 > 79 characters)
+app/data\progression_paths.py:940:80: E501 line too long (86 > 79 characters)
+app/data\progression_paths.py:942:80: E501 line too long (91 > 79 characters)
+app/data\progression_paths.py:950:80: E501 line too long (170 > 79 characters)
+app/data\progression_paths.py:956:80: E501 line too long (90 > 79 characters)
+app/data\progression_paths.py:963:80: E501 line too long (173 > 79 characters)
+app/data\progression_paths.py:964:80: E501 line too long (208 > 79 characters)
+app/data\progression_paths.py:971:80: E501 line too long (245 > 79 characters)
+app/data\progression_paths.py:982:80: E501 line too long (82 > 79 characters)
+app/data\progression_paths.py:1002:80: E501 line too long (109 > 79 characters)
+app/data\progression_paths.py:1005:80: E501 line too long (86 > 79 characters)
+app/data\progression_paths.py:1008:80: E501 line too long (94 > 79 characters)
+app/data\progression_paths.py:1011:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:1014:80: E501 line too long (114 > 79 characters)
+app/data\progression_paths.py:1019:80: E501 line too long (81 > 79 characters)
+app/data\progression_paths.py:1029:80: E501 line too long (210 > 79 characters)
+app/data\progression_paths.py:1037:80: E501 line too long (247 > 79 characters)
+app/data\progression_paths.py:1048:80: E501 line too long (108 > 79 characters)
+app/data\progression_paths.py:1049:80: E501 line too long (100 > 79 characters)
+app/data\progression_paths.py:1050:80: E501 line too long (113 > 79 characters)
+app/data\progression_paths.py:1057:80: E501 line too long (90 > 79 characters)
+app/data\progression_paths.py:1058:80: E501 line too long (103 > 79 characters)
+app/data\progression_paths.py:1065:80: E501 line too long (82 > 79 characters)
+app/data\progression_paths.py:1066:80: E501 line too long (104 > 79 characters)
+app/data\progression_paths.py:1072:80: E501 line too long (84 > 79 characters)
+app/data\progression_paths.py:1074:80: E501 line too long (101 > 79 characters)
+app/data\progression_paths.py:1079:80: E501 line too long (234 > 79 characters)
+app/data\progression_paths.py:1087:80: E501 line too long (216 > 79 characters)
+app/data\progression_paths.py:1100:80: E501 line too long (87 > 79 characters)
+app/data\progression_paths.py:1102:80: E501 line too long (234 > 79 characters)
+app/data\progression_paths.py:1109:80: E501 line too long (263 > 79 characters)
+app/data\progression_paths.py:1110:80: E501 line too long (214 > 79 characters)
+app/data\progression_paths.py:1113:80: E501 line too long (100 > 79 characters)
+app/dependencies\supabase_auth.py:29:80: E501 line too long (99 > 79 characters)
+app/dependencies\supabase_auth.py:54:80: E501 line too long (80 > 79 characters)
+app/dependencies\supabase_auth.py:57:80: E501 line too long (87 > 79 characters)
+app/main.py:24:80: E501 line too long (83 > 79 characters)
+app/main.py:59:80: E501 line too long (82 > 79 characters)
+app/main.py:66:80: E501 line too long (101 > 79 characters)
+app/main.py:67:80: E501 line too long (105 > 79 characters)
+app/main.py:77:80: E501 line too long (81 > 79 characters)
+app/main.py:80:80: E501 line too long (80 > 79 characters)
+app/main.py:152:80: E501 line too long (81 > 79 characters)
+app/main.py:173:80: E501 line too long (87 > 79 characters)
+app/main.py:220:80: E501 line too long (93 > 79 characters)
+app/main.py:226:80: E501 line too long (94 > 79 characters)
+app/main.py:230:80: E501 line too long (88 > 79 characters)
+app/models\database.py:5:1: F401 'sqlalchemy.func' imported but unused
+app/models\database.py:11:1: F401 'sqlalchemy.orm.Session' imported but unused
+app/models\database.py:12:80: E501 line too long (88 > 79 characters)
+app/models\database.py:39:80: E501 line too long (93 > 79 characters)
+app/models\database.py:40:80: E501 line too long (86 > 79 characters)
+app/models\database.py:43:80: E501 line too long (80 > 79 characters)
+app/models\database.py:61:80: E501 line too long (91 > 79 characters)
+app/models\database.py:70:80: E501 line too long (84 > 79 characters)
+app/models\database.py:82:80: E501 line too long (81 > 79 characters)
+app/models\database.py:128:17: E131 continuation line unaligned for hanging indent
+app/models\database.py:131:80: E501 line too long (91 > 79 characters)
+app/models\database.py:132:80: E501 line too long (89 > 79 characters)
+app/models\database.py:137:80: E501 line too long (82 > 79 characters)
+app/models\database.py:149:80: E501 line too long (154 > 79 characters)
+app/models\database.py:153:80: E501 line too long (82 > 79 characters)
+app/models\database.py:159:80: E501 line too long (139 > 79 characters)
+app/models\database.py:161:80: E501 line too long (84 > 79 characters)
+app/models\database.py:189:80: E501 line too long (83 > 79 characters)
+app/models\database.py:190:80: E501 line too long (83 > 79 characters)
+app/models\database.py:195:80: E501 line too long (96 > 79 characters)
+app/models\database.py:203:80: E501 line too long (125 > 79 characters)
+app/models\database.py:204:80: E501 line too long (89 > 79 characters)
+app/models\database.py:206:80: E501 line too long (107 > 79 characters)
+app/models\database.py:207:80: E501 line too long (106 > 79 characters)
+app/models\database.py:217:80: E501 line too long (97 > 79 characters)
+app/models\database.py:225:80: E501 line too long (80 > 79 characters)
+app/models\database.py:249:80: E501 line too long (83 > 79 characters)
+app/models\database.py:250:80: E501 line too long (83 > 79 characters)
+app/models\database.py:262:80: E501 line too long (80 > 79 characters)
+app/models\database.py:280:80: E501 line too long (88 > 79 characters)
+app/models\database.py:306:80: E501 line too long (89 > 79 characters)
+app/models\database.py:307:80: E501 line too long (115 > 79 characters)
+app/models\database.py:341:80: E501 line too long (81 > 79 characters)
+app/models\database.py:343:80: E501 line too long (83 > 79 characters)
+app/models\database.py:344:80: E501 line too long (83 > 79 characters)
+app/models\database.py:345:80: E501 line too long (83 > 79 characters)
+app/models\database.py:380:80: E501 line too long (99 > 79 characters)
+app/models\database.py:382:80: E501 line too long (89 > 79 characters)
+app/models\database.py:390:80: E501 line too long (83 > 79 characters)
+app/models\database.py:407:80: E501 line too long (82 > 79 characters)
+app/models\erg.py:81:80: E501 line too long (85 > 79 characters)
+app/models\roadmap.py:23:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:25:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:31:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:40:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:47:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:62:1: W293 blank line contains whitespace
+app/models\roadmap.py:66:80: E501 line too long (83 > 79 characters)
+app/models\roadmap.py:67:1: W293 blank line contains whitespace
+app/models\roadmap.py:69:80: E501 line too long (87 > 79 characters)
+app/models\roadmap.py:71:1: W293 blank line contains whitespace
+app/models\roadmap.py:73:80: E501 line too long (114 > 79 characters)
+app/models\roadmap.py:82:80: E501 line too long (113 > 79 characters)
+app/models\roadmap.py:83:80: E501 line too long (107 > 79 characters)
+app/models\roadmap.py:84:80: E501 line too long (111 > 79 characters)
+app/models\roadmap.py:85:1: W293 blank line contains whitespace
+app/models\roadmap.py:124:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:133:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:136:80: E501 line too long (83 > 79 characters)
+app/models\roadmap.py:140:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:150:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:154:80: E501 line too long (87 > 79 characters)
+app/models\roadmap.py:159:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:163:80: E501 line too long (82 > 79 characters)
+app/models\roadmap.py:165:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:173:1: W293 blank line contains whitespace
+app/models\roadmap.py:177:1: W293 blank line contains whitespace
+app/models\roadmap.py:179:80: E501 line too long (89 > 79 characters)
+app/models\roadmap.py:181:80: E501 line too long (87 > 79 characters)
+app/models\roadmap.py:182:1: W293 blank line contains whitespace
+app/models\roadmap.py:184:80: E501 line too long (87 > 79 characters)
+app/models\roadmap.py:186:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:187:1: W293 blank line contains whitespace
+app/models\roadmap.py:192:1: W293 blank line contains whitespace
+app/models\roadmap.py:197:1: W293 blank line contains whitespace
+app/models\roadmap.py:199:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:202:80: E501 line too long (89 > 79 characters)
+app/models\roadmap.py:203:1: W293 blank line contains whitespace
+app/models\roadmap.py:206:80: E501 line too long (81 > 79 characters)
+app/models\roadmap.py:208:1: W293 blank line contains whitespace
+app/models\roadmap.py:210:80: E501 line too long (90 > 79 characters)
+app/models\roadmap.py:212:1: W293 blank line contains whitespace
+app/models\roadmap.py:215:80: E501 line too long (85 > 79 characters)
+app/models\roadmap.py:225:1: W293 blank line contains whitespace
+app/models\roadmap.py:230:1: W293 blank line contains whitespace
+app/models\roadmap.py:232:80: E501 line too long (91 > 79 characters)
+app/models\roadmap.py:233:1: W293 blank line contains whitespace
+app/models\roadmap.py:235:80: E501 line too long (81 > 79 characters)
+app/models\roadmap.py:238:1: W293 blank line contains whitespace
+app/models\roadmap.py:243:1: W293 blank line contains whitespace
+app/models\roadmap.py:246:1: W293 blank line contains whitespace
+app/models\roadmap.py:249:80: E501 line too long (83 > 79 characters)
+app/models\roadmap.py:252:1: W293 blank line contains whitespace
+app/models\roadmap.py:258:1: W293 blank line contains whitespace
+app/models\roadmap.py:260:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:261:80: E501 line too long (85 > 79 characters)
+app/models\roadmap.py:262:1: W293 blank line contains whitespace
+app/models\roadmap.py:280:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:293:1: E302 expected 2 blank lines, found 1
+app/models\roadmap.py:296:1: W293 blank line contains whitespace
+app/models\roadmap.py:297:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:299:1: W293 blank line contains whitespace
+app/models\roadmap.py:303:1: W293 blank line contains whitespace
+app/models\roadmap.py:310:1: W293 blank line contains whitespace
+app/models\roadmap.py:312:80: E501 line too long (82 > 79 characters)
+app/models\roadmap.py:314:1: W293 blank line contains whitespace
+app/models\roadmap.py:316:80: E501 line too long (82 > 79 characters)
+app/models\roadmap.py:317:1: W293 blank line contains whitespace
+app/models\roadmap.py:323:1: W293 blank line contains whitespace
+app/models\roadmap.py:325:80: E501 line too long (86 > 79 characters)
+app/models\roadmap.py:326:80: E501 line too long (80 > 79 characters)
+app/models\roadmap.py:328:1: W293 blank line contains whitespace
+app/models\roadmap.py:334:1: W293 blank line contains whitespace
+app/routes\career.py:2:80: E501 line too long (81 > 79 characters)
+app/routes\career.py:7:1: F401 'typing.Optional' imported but unused
+app/routes\career.py:9:1: F401 'fastapi.Query' imported but unused
+app/routes\career.py:11:1: F401 'app.data.progression_paths.MOS_TO_PATHS' imported but unused
+app/routes\career.py:11:1: F401 'app.data.progression_paths.INDUSTRY_TO_PATHS' imported but unused
+app/routes\career.py:11:1: F401 'app.data.progression_paths.PATH_BY_ID' imported but unused
+app/routes\career.py:33:80: E501 line too long (80 > 79 characters)
+app/routes\career.py:36:80: E501 line too long (85 > 79 characters)
+app/routes\career.py:58:80: E501 line too long (80 > 79 characters)
+app/routes\career.py:66:80: E501 line too long (90 > 79 characters)
+app/routes\career.py:67:80: E501 line too long (91 > 79 characters)
+app/routes\career.py:68:80: E501 line too long (102 > 79 characters)
+app/routes\career.py:85:80: E501 line too long (97 > 79 characters)
+app/routes\career.py:87:80: E501 line too long (99 > 79 characters)
+app/routes\career.py:89:80: E501 line too long (95 > 79 characters)
+app/routes\career.py:96:80: E501 line too long (90 > 79 characters)
+app/routes\career.py:101:80: E501 line too long (117 > 79 characters)
+app/routes\career.py:104:80: E501 line too long (81 > 79 characters)
+app/routes\career.py:105:80: E501 line too long (90 > 79 characters)
+app/routes\career.py:106:80: E501 line too long (89 > 79 characters)
+app/routes\career.py:117:80: E501 line too long (81 > 79 characters)
+app/routes\career.py:124:80: E501 line too long (89 > 79 characters)
+app/routes\career.py:128:80: E501 line too long (93 > 79 characters)
+app/routes\career.py:130:80: E501 line too long (81 > 79 characters)
+app/routes\career.py:149:80: E501 line too long (108 > 79 characters)
+app/routes\career.py:155:80: E501 line too long (114 > 79 characters)
+app/routes\career.py:161:80: E501 line too long (104 > 79 characters)
+app/routes\career.py:162:80: E501 line too long (98 > 79 characters)
+app/routes\career.py:163:80: E501 line too long (101 > 79 characters)
+app/routes\career.py:164:80: E501 line too long (102 > 79 characters)
+app/routes\career.py:165:80: E501 line too long (86 > 79 characters)
+app/routes\communities.py:6:80: E501 line too long (86 > 79 characters)
+app/routes\communities.py:8:80: E501 line too long (82 > 79 characters)
+app/routes\communities.py:26:80: E501 line too long (84 > 79 characters)
+app/routes\communities.py:37:80: E501 line too long (88 > 79 characters)
+app/routes\communities.py:44:80: E501 line too long (80 > 79 characters)
+app/routes\communities.py:45:80: E501 line too long (81 > 79 characters)
+app/routes\communities.py:50:80: E501 line too long (84 > 79 characters)
+app/routes\communities.py:61:80: E501 line too long (109 > 79 characters)
+app/routes\communities.py:68:80: E501 line too long (92 > 79 characters)
+app/routes\communities.py:70:80: E501 line too long (90 > 79 characters)
+app/routes\communities.py:89:80: E501 line too long (85 > 79 characters)
+app/routes\communities.py:116:80: E501 line too long (85 > 79 characters)
+app/routes\communities.py:124:80: E501 line too long (80 > 79 characters)
+app/routes\employment_networking.py:6:80: E501 line too long (101 > 79 characters)
+app/routes\employment_networking.py:7:80: E501 line too long (115 > 79 characters)
+app/routes\employment_networking.py:12:1: F401 'typing.Any' imported but unused
+app/routes\employment_networking.py:24:80: E501 line too long (90 > 79 characters)
+app/routes\employment_networking.py:49:80: E501 line too long (91 > 79 characters)
+app/routes\employment_networking.py:52:80: E501 line too long (222 > 79 characters)
+app/routes\employment_networking.py:53:80: E501 line too long (210 > 79 characters)
+app/routes\employment_networking.py:56:80: E501 line too long (237 > 79 characters)
+app/routes\employment_networking.py:57:80: E501 line too long (199 > 79 characters)
+app/routes\employment_networking.py:60:80: E501 line too long (201 > 79 characters)
+app/routes\employment_networking.py:61:80: E501 line too long (209 > 79 characters)
+app/routes\employment_networking.py:62:80: E501 line too long (221 > 79 characters)
+app/routes\employment_networking.py:65:80: E501 line too long (220 > 79 characters)
+app/routes\employment_networking.py:66:80: E501 line too long (188 > 79 characters)
+app/routes\employment_networking.py:74:80: E501 line too long (99 > 79 characters)
+app/routes\employment_networking.py:75:80: E501 line too long (96 > 79 characters)
+app/routes\employment_networking.py:78:80: E501 line too long (82 > 79 characters)
+app/routes\employment_networking.py:79:80: E501 line too long (92 > 79 characters)
+app/routes\employment_networking.py:90:80: E501 line too long (91 > 79 characters)
+app/routes\employment_networking.py:91:80: E501 line too long (94 > 79 characters)
+app/routes\employment_networking.py:92:80: E501 line too long (83 > 79 characters)
+app/routes\employment_networking.py:93:80: E501 line too long (89 > 79 characters)
+app/routes\employment_networking.py:94:80: E501 line too long (102 > 79 characters)
+app/routes\employment_networking.py:95:80: E501 line too long (97 > 79 characters)
+app/routes\employment_networking.py:96:80: E501 line too long (101 > 79 characters)
+app/routes\employment_networking.py:97:80: E501 line too long (105 > 79 characters)
+app/routes\employment_networking.py:98:80: E501 line too long (90 > 79 characters)
+app/routes\employment_networking.py:99:80: E501 line too long (130 > 79 characters)
+app/routes\employment_networking.py:103:1: E302 expected 2 blank lines, found 1
+app/routes\employment_networking.py:126:1: E305 expected 2 blank lines after class or function definition, found 1
+app/routes\employment_networking.py:129:80: E501 line too long (107 > 79 characters)
+app/routes\employment_networking.py:130:80: E501 line too long (105 > 79 characters)
+app/routes\employment_networking.py:133:80: E501 line too long (86 > 79 characters)
+app/routes\employment_networking.py:142:80: E501 line too long (106 > 79 characters)
+app/routes\employment_networking.py:143:80: E501 line too long (100 > 79 characters)
+app/routes\employment_networking.py:150:80: E501 line too long (90 > 79 characters)
+app/routes\employment_networking.py:153:80: E501 line too long (83 > 79 characters)
+app/routes\employment_networking.py:155:80: E501 line too long (134 > 79 characters)
+app/routes\employment_networking.py:163:80: E501 line too long (132 > 79 characters)
+app/routes\employment_networking.py:177:80: E501 line too long (104 > 79 characters)
+app/routes\employment_networking.py:178:80: E501 line too long (81 > 79 characters)
+app/routes\employment_networking.py:185:80: E501 line too long (87 > 79 characters)
+app/routes\employment_networking.py:190:80: E501 line too long (92 > 79 characters)
+app/routes\employment_networking.py:194:80: E501 line too long (96 > 79 characters)
+app/routes\employment_networking.py:204:80: E501 line too long (81 > 79 characters)
+app/routes\employment_networking.py:217:80: E501 line too long (117 > 79 characters)
+app/routes\employment_networking.py:222:80: E501 line too long (82 > 79 characters)
+app/routes\employment_networking.py:229:80: E501 line too long (82 > 79 characters)
+app/routes\employment_networking.py:239:80: E501 line too long (97 > 79 characters)
+app/routes\employment_networking.py:260:80: E501 line too long (318 > 79 characters)
+app/routes\employment_networking.py:261:80: E501 line too long (302 > 79 characters)
+app/routes\employment_networking.py:262:80: E501 line too long (321 > 79 characters)
+app/routes\employment_networking.py:263:80: E501 line too long (282 > 79 characters)
+app/routes\employment_networking.py:264:80: E501 line too long (312 > 79 characters)
+app/routes\employment_networking.py:265:80: E501 line too long (294 > 79 characters)
+app/routes\employment_networking.py:266:80: E501 line too long (311 > 79 characters)
+app/routes\employment_networking.py:269:80: E501 line too long (321 > 79 characters)
+app/routes\employment_networking.py:270:80: E501 line too long (307 > 79 characters)
+app/routes\employment_networking.py:271:80: E501 line too long (268 > 79 characters)
+app/routes\employment_networking.py:272:80: E501 line too long (299 > 79 characters)
+app/routes\employment_networking.py:273:80: E501 line too long (304 > 79 characters)
+app/routes\employment_networking.py:276:80: E501 line too long (289 > 79 characters)
+app/routes\employment_networking.py:277:80: E501 line too long (305 > 79 characters)
+app/routes\employment_networking.py:278:80: E501 line too long (303 > 79 characters)
+app/routes\employment_networking.py:279:80: E501 line too long (301 > 79 characters)
+app/routes\employment_networking.py:280:80: E501 line too long (298 > 79 characters)
+app/routes\employment_networking.py:283:80: E501 line too long (304 > 79 characters)
+app/routes\employment_networking.py:284:80: E501 line too long (279 > 79 characters)
+app/routes\employment_networking.py:285:80: E501 line too long (292 > 79 characters)
+app/routes\employment_networking.py:286:80: E501 line too long (296 > 79 characters)
+app/routes\employment_networking.py:289:80: E501 line too long (297 > 79 characters)
+app/routes\employment_networking.py:290:80: E501 line too long (291 > 79 characters)
+app/routes\employment_networking.py:291:80: E501 line too long (278 > 79 characters)
+app/routes\employment_networking.py:292:80: E501 line too long (285 > 79 characters)
+app/routes\employment_networking.py:295:80: E501 line too long (289 > 79 characters)
+app/routes\employment_networking.py:296:80: E501 line too long (274 > 79 characters)
+app/routes\employment_networking.py:297:80: E501 line too long (288 > 79 characters)
+app/routes\employment_networking.py:300:80: E501 line too long (305 > 79 characters)
+app/routes\employment_networking.py:301:80: E501 line too long (292 > 79 characters)
+app/routes\employment_networking.py:302:80: E501 line too long (283 > 79 characters)
+app/routes\employment_networking.py:305:80: E501 line too long (284 > 79 characters)
+app/routes\employment_networking.py:306:80: E501 line too long (288 > 79 characters)
+app/routes\employment_networking.py:307:80: E501 line too long (284 > 79 characters)
+app/routes\employment_networking.py:310:80: E501 line too long (291 > 79 characters)
+app/routes\employment_networking.py:311:80: E501 line too long (284 > 79 characters)
+app/routes\employment_networking.py:312:80: E501 line too long (299 > 79 characters)
+app/routes\employment_networking.py:315:80: E501 line too long (294 > 79 characters)
+app/routes\employment_networking.py:316:80: E501 line too long (290 > 79 characters)
+app/routes\employment_networking.py:317:80: E501 line too long (310 > 79 characters)
+app/routes\employment_networking.py:323:80: E501 line too long (316 > 79 characters)
+app/routes\employment_networking.py:324:80: E501 line too long (307 > 79 characters)
+app/routes\employment_networking.py:325:80: E501 line too long (316 > 79 characters)
+app/routes\employment_networking.py:326:80: E501 line too long (312 > 79 characters)
+app/routes\employment_networking.py:327:80: E501 line too long (295 > 79 characters)
+app/routes\employment_networking.py:328:80: E501 line too long (300 > 79 characters)
+app/routes\employment_networking.py:329:80: E501 line too long (329 > 79 characters)
+app/routes\employment_networking.py:345:80: E501 line too long (102 > 79 characters)
+app/routes\employment_networking.py:352:80: E501 line too long (99 > 79 characters)
+app/routes\employment_networking.py:361:80: E501 line too long (95 > 79 characters)
+app/routes\employment_networking.py:365:80: E501 line too long (89 > 79 characters)
+app/routes\employment_networking.py:375:80: E501 line too long (112 > 79 characters)
+app/routes\employment_networking.py:377:80: E501 line too long (97 > 79 characters)
+app/routes\employment_networking.py:390:80: E501 line too long (86 > 79 characters)
+app/routes\employment_networking.py:393:80: E501 line too long (112 > 79 characters)
+app/routes\employment_networking.py:397:80: E501 line too long (101 > 79 characters)
+app/routes\employment_networking.py:409:80: E501 line too long (81 > 79 characters)
+app/routes\employment_networking.py:410:80: E501 line too long (116 > 79 characters)
+app/routes\employment_networking.py:426:80: E501 line too long (109 > 79 characters)
+app/routes\employment_networking.py:446:80: E501 line too long (80 > 79 characters)
+app/routes\employment_networking.py:447:80: E501 line too long (96 > 79 characters)
+app/routes\employment_networking.py:465:80: E501 line too long (97 > 79 characters)
+app/routes\employment_networking.py:468:80: E501 line too long (124 > 79 characters)
+app/routes\employment_networking.py:469:80: E501 line too long (105 > 79 characters)
+app/routes\employment_networking.py:470:80: E501 line too long (144 > 79 characters)
+app/routes\employment_networking.py:473:80: E501 line too long (109 > 79 characters)
+app/routes\employment_networking.py:474:80: E501 line too long (135 > 79 characters)
+app/routes\employment_networking.py:479:80: E501 line too long (121 > 79 characters)
+app/routes\employment_networking.py:483:80: E501 line too long (107 > 79 characters)
+app/routes\employment_networking.py:486:80: E501 line too long (112 > 79 characters)
+app/routes\employment_networking.py:496:80: E501 line too long (111 > 79 characters)
+app/routes\employment_networking.py:498:80: E501 line too long (111 > 79 characters)
+app/routes\employment_networking.py:499:80: E501 line too long (87 > 79 characters)
+app/routes\employment_networking.py:501:80: E501 line too long (114 > 79 characters)
+app/routes\ergs.py:23:1: F401 'app.models.database.get_async_session_factory' imported but unused
+app/routes\ergs.py:23:1: F401 'app.models.database.CorporateErg' imported but unused
+app/routes\ergs.py:39:80: E501 line too long (91 > 79 characters)
+app/routes\ergs.py:44:80: E501 line too long (91 > 79 characters)
+app/routes\ergs.py:48:80: E501 line too long (80 > 79 characters)
+app/routes\ergs.py:69:80: E501 line too long (94 > 79 characters)
+app/routes\ergs.py:99:80: E501 line too long (110 > 79 characters)
+app/routes\ergs.py:104:80: E501 line too long (102 > 79 characters)
+app/routes\ergs.py:110:80: E501 line too long (82 > 79 characters)
+app/routes\ergs.py:125:80: E501 line too long (84 > 79 characters)
+app/routes\ergs.py:134:80: E501 line too long (89 > 79 characters)
+app/routes\ergs.py:154:80: E501 line too long (91 > 79 characters)
+app/routes\ergs.py:156:80: E501 line too long (89 > 79 characters)
+app/routes\ergs.py:162:80: E501 line too long (110 > 79 characters)
+app/routes\ergs.py:173:80: E501 line too long (116 > 79 characters)
+app/routes\news.py:39:80: E501 line too long (87 > 79 characters)
+app/routes\news.py:123:25: E131 continuation line unaligned for hanging indent
+app/routes\news.py:126:80: E501 line too long (93 > 79 characters)
+app/routes\programs.py:21:1: F401 'app.models.schemas.ScrapeStatus' imported but unused
+app/routes\programs.py:43:80: E501 line too long (84 > 79 characters)
+app/routes\programs.py:44:80: E501 line too long (83 > 79 characters)
+app/routes\programs.py:47:80: E501 line too long (86 > 79 characters)
+app/routes\programs.py:48:80: E501 line too long (87 > 79 characters)
+app/routes\programs.py:49:80: E501 line too long (83 > 79 characters)
+app/routes\programs.py:50:80: E501 line too long (84 > 79 characters)
+app/routes\programs.py:52:80: E501 line too long (81 > 79 characters)
+app/routes\programs.py:53:80: E501 line too long (81 > 79 characters)
+app/routes\programs.py:63:53: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:99:80: E501 line too long (83 > 79 characters)
+app/routes\programs.py:102:44: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:132:80: E501 line too long (80 > 79 characters)
+app/routes\programs.py:169:80: E501 line too long (83 > 79 characters)
+app/routes\programs.py:177:27: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:263:80: E501 line too long (81 > 79 characters)
+app/routes\programs.py:264:80: E501 line too long (82 > 79 characters)
+app/routes\programs.py:278:80: E501 line too long (85 > 79 characters)
+app/routes\programs.py:308:64: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:311:80: E501 line too long (91 > 79 characters)
+app/routes\programs.py:311:84: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:315:31: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:320:31: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:320:59: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:325:31: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:325:55: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:332:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:344:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:381:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:393:34: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/routes\programs.py:393:80: E501 line too long (89 > 79 characters)
+app/routes\roadmap.py:6:80: E501 line too long (95 > 79 characters)
+app/routes\roadmap.py:15:1: F401 'typing.Any' imported but unused
+app/routes\roadmap.py:29:80: E501 line too long (90 > 79 characters)
+app/routes\roadmap.py:39:80: E501 line too long (97 > 79 characters)
+app/routes\roadmap.py:50:80: E501 line too long (105 > 79 characters)
+app/routes\roadmap.py:56:1: E302 expected 2 blank lines, found 1
+app/routes\roadmap.py:84:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:147:80: E501 line too long (80 > 79 characters)
+app/routes\roadmap.py:148:80: E501 line too long (97 > 79 characters)
+app/routes\roadmap.py:153:80: E501 line too long (85 > 79 characters)
+app/routes\roadmap.py:159:80: E501 line too long (97 > 79 characters)
+app/routes\roadmap.py:160:80: E501 line too long (94 > 79 characters)
+app/routes\roadmap.py:161:80: E501 line too long (112 > 79 characters)
+app/routes\roadmap.py:166:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:167:80: E501 line too long (112 > 79 characters)
+app/routes\roadmap.py:187:80: E501 line too long (124 > 79 characters)
+app/routes\roadmap.py:189:80: E501 line too long (105 > 79 characters)
+app/routes\roadmap.py:193:80: E501 line too long (95 > 79 characters)
+app/routes\roadmap.py:205:80: E501 line too long (83 > 79 characters)
+app/routes\roadmap.py:218:80: E501 line too long (128 > 79 characters)
+app/routes\roadmap.py:225:80: E501 line too long (120 > 79 characters)
+app/routes\roadmap.py:243:80: E501 line too long (127 > 79 characters)
+app/routes\roadmap.py:247:80: E501 line too long (101 > 79 characters)
+app/routes\roadmap.py:248:80: E501 line too long (93 > 79 characters)
+app/routes\roadmap.py:256:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:298:80: E501 line too long (156 > 79 characters)
+app/routes\roadmap.py:299:80: E501 line too long (95 > 79 characters)
+app/routes\roadmap.py:303:80: E501 line too long (114 > 79 characters)
+app/routes\roadmap.py:315:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:316:80: E501 line too long (87 > 79 characters)
+app/routes\roadmap.py:322:80: E501 line too long (110 > 79 characters)
+app/routes\roadmap.py:401:80: E501 line too long (99 > 79 characters)
+app/routes\roadmap.py:402:80: E501 line too long (121 > 79 characters)
+app/routes\roadmap.py:410:80: E501 line too long (102 > 79 characters)
+app/routes\roadmap.py:414:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:415:80: E501 line too long (86 > 79 characters)
+app/routes\roadmap.py:417:80: E501 line too long (102 > 79 characters)
+app/routes\roadmap.py:424:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:447:80: E501 line too long (97 > 79 characters)
+app/routes\roadmap.py:454:80: E501 line too long (83 > 79 characters)
+app/routes\roadmap.py:461:80: E501 line too long (92 > 79 characters)
+app/routes\roadmap.py:462:80: E501 line too long (94 > 79 characters)
+app/routes\roadmap.py:470:80: E501 line too long (110 > 79 characters)
+app/routes\roadmap.py:471:80: E501 line too long (95 > 79 characters)
+app/routes\roadmap.py:472:80: E501 line too long (96 > 79 characters)
+app/routes\roadmap.py:484:80: E501 line too long (81 > 79 characters)
+app/routes\roadmap.py:490:80: E501 line too long (87 > 79 characters)
+app/scrapers\erg_enricher.py:32:80: E501 line too long (90 > 79 characters)
+app/scrapers\erg_enricher.py:33:80: E501 line too long (82 > 79 characters)
+app/scrapers\erg_enricher.py:45:80: E501 line too long (84 > 79 characters)
+app/scrapers\erg_enricher.py:59:80: E501 line too long (90 > 79 characters)
+app/scrapers\erg_enricher.py:64:80: E501 line too long (113 > 79 characters)
+app/scrapers\erg_enricher.py:86:80: E501 line too long (81 > 79 characters)
+app/scrapers\erg_enricher.py:121:80: E501 line too long (81 > 79 characters)
+app/scrapers\erg_enricher.py:164:80: E501 line too long (108 > 79 characters)
+app/scrapers\erg_scraper.py:2:80: E501 line too long (97 > 79 characters)
+app/scrapers\erg_scraper.py:15:80: E501 line too long (84 > 79 characters)
+app/scrapers\erg_scraper.py:22:80: E501 line too long (87 > 79 characters)
+app/scrapers\erg_scraper.py:33:80: E501 line too long (84 > 79 characters)
+app/scrapers\erg_scraper.py:39:80: E501 line too long (87 > 79 characters)
+app/scrapers\erg_scraper.py:50:80: E501 line too long (90 > 79 characters)
+app/scrapers\erg_scraper.py:57:80: E501 line too long (85 > 79 characters)
+app/scrapers\erg_scraper.py:107:80: E501 line too long (85 > 79 characters)
+app/scrapers\erg_scraper.py:111:9: F401 'fuzzywuzzy.fuzz' imported but unused
+app/scrapers\erg_scraper.py:114:9: F841 local variable 'has_fuzzy' is assigned to but never used
+app/scrapers\erg_scraper.py:120:80: E501 line too long (111 > 79 characters)
+app/scrapers\erg_scraper.py:134:80: E501 line too long (89 > 79 characters)
+app/scrapers\erg_scraper.py:144:80: E501 line too long (83 > 79 characters)
+app/scrapers\erg_seed_data.py:12:80: E501 line too long (214 > 79 characters)
+app/scrapers\erg_seed_data.py:13:80: E501 line too long (115 > 79 characters)
+app/scrapers\erg_seed_data.py:23:80: E501 line too long (187 > 79 characters)
+app/scrapers\erg_seed_data.py:24:80: E501 line too long (96 > 79 characters)
+app/scrapers\erg_seed_data.py:33:80: E501 line too long (192 > 79 characters)
+app/scrapers\erg_seed_data.py:34:80: E501 line too long (92 > 79 characters)
+app/scrapers\erg_seed_data.py:43:80: E501 line too long (187 > 79 characters)
+app/scrapers\erg_seed_data.py:44:80: E501 line too long (105 > 79 characters)
+app/scrapers\erg_seed_data.py:53:80: E501 line too long (159 > 79 characters)
+app/scrapers\erg_seed_data.py:54:80: E501 line too long (93 > 79 characters)
+app/scrapers\erg_seed_data.py:64:80: E501 line too long (151 > 79 characters)
+app/scrapers\erg_seed_data.py:65:80: E501 line too long (97 > 79 characters)
+app/scrapers\erg_seed_data.py:75:80: E501 line too long (190 > 79 characters)
+app/scrapers\erg_seed_data.py:76:80: E501 line too long (94 > 79 characters)
+app/scrapers\erg_seed_data.py:84:80: E501 line too long (172 > 79 characters)
+app/scrapers\erg_seed_data.py:85:80: E501 line too long (93 > 79 characters)
+app/scrapers\erg_seed_data.py:93:80: E501 line too long (196 > 79 characters)
+app/scrapers\erg_seed_data.py:94:80: E501 line too long (93 > 79 characters)
+app/scrapers\erg_seed_data.py:102:80: E501 line too long (191 > 79 characters)
+app/scrapers\erg_seed_data.py:111:80: E501 line too long (206 > 79 characters)
+app/scrapers\erg_seed_data.py:120:80: E501 line too long (202 > 79 characters)
+app/scrapers\erg_seed_data.py:129:80: E501 line too long (205 > 79 characters)
+app/scrapers\erg_seed_data.py:130:80: E501 line too long (91 > 79 characters)
+app/scrapers\erg_seed_data.py:139:80: E501 line too long (182 > 79 characters)
+app/scrapers\erg_seed_data.py:140:80: E501 line too long (101 > 79 characters)
+app/scrapers\erg_seed_data.py:149:80: E501 line too long (198 > 79 characters)
+app/scrapers\erg_seed_data.py:150:80: E501 line too long (93 > 79 characters)
+app/scrapers\erg_seed_data.py:158:80: E501 line too long (194 > 79 characters)
+app/scrapers\erg_seed_data.py:159:80: E501 line too long (86 > 79 characters)
+app/scrapers\erg_seed_data.py:167:80: E501 line too long (184 > 79 characters)
+app/scrapers\erg_seed_data.py:176:80: E501 line too long (186 > 79 characters)
+app/scrapers\erg_seed_data.py:185:80: E501 line too long (214 > 79 characters)
+app/scrapers\erg_seed_data.py:194:80: E501 line too long (215 > 79 characters)
+app/scrapers\erg_seed_data.py:203:80: E501 line too long (163 > 79 characters)
+app/scrapers\erg_seed_data.py:212:80: E501 line too long (219 > 79 characters)
+app/scrapers\erg_seed_data.py:213:80: E501 line too long (92 > 79 characters)
+app/scrapers\erg_seed_data.py:221:80: E501 line too long (197 > 79 characters)
+app/scrapers\erg_seed_data.py:222:80: E501 line too long (119 > 79 characters)
+app/scrapers\erg_seed_data.py:230:80: E501 line too long (152 > 79 characters)
+app/scrapers\erg_seed_data.py:240:80: E501 line too long (223 > 79 characters)
+app/scrapers\erg_seed_data.py:241:80: E501 line too long (92 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:4:80: E501 line too long (84 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:7:1: F401 'csv' imported but unused
+app/scrapers\labor_occupations_scraper.py:18:80: E501 line too long (108 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:20:80: E501 line too long (81 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:74:80: E501 line too long (82 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:87:80: E501 line too long (96 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:91:80: E501 line too long (83 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:103:80: E501 line too long (87 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:104:80: E501 line too long (103 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:105:80: E501 line too long (95 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:106:80: E501 line too long (106 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:131:80: E501 line too long (83 > 79 characters)
+app/scrapers\labor_occupations_scraper.py:152:80: E501 line too long (113 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:15:1: F401 'hashlib' imported but unused
+app/scrapers\skillbridge_api_scraper.py:16:1: F401 're' imported but unused
+app/scrapers\skillbridge_api_scraper.py:17:1: F401 'datetime.datetime' imported but unused
+app/scrapers\skillbridge_api_scraper.py:18:1: F401 'typing.Tuple' imported but unused
+app/scrapers\skillbridge_api_scraper.py:126:80: E501 line too long (85 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:147:80: E501 line too long (92 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:167:80: E501 line too long (82 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:171:80: E501 line too long (86 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:184:80: E501 line too long (82 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:187:80: E501 line too long (83 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:189:80: E501 line too long (89 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:190:80: E501 line too long (89 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:197:13: F841 local variable 'industry' is assigned to but never used
+app/scrapers\skillbridge_api_scraper.py:240:80: E501 line too long (80 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:255:80: E501 line too long (88 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:268:80: E501 line too long (100 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:309:80: E501 line too long (85 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:322:80: E501 line too long (81 > 79 characters)
+app/scrapers\skillbridge_api_scraper.py:326:80: E501 line too long (87 > 79 characters)
+app/scrapers\skillbridge_scraper.py:17:1: F401 'datetime.datetime' imported but unused
+app/scrapers\skillbridge_scraper.py:19:1: F401 'dataclasses.field' imported but unused
+app/scrapers\skillbridge_scraper.py:63:80: E501 line too long (98 > 79 characters)
+app/scrapers\skillbridge_scraper.py:98:80: E501 line too long (81 > 79 characters)
+app/scrapers\skillbridge_scraper.py:199:80: E501 line too long (92 > 79 characters)
+app/scrapers\skillbridge_scraper.py:237:80: E501 line too long (84 > 79 characters)
+app/scrapers\skillbridge_scraper.py:243:80: E501 line too long (86 > 79 characters)
+app/scrapers\skillbridge_scraper.py:261:80: E501 line too long (84 > 79 characters)
+app/scrapers\skillbridge_scraper.py:264:80: E501 line too long (86 > 79 characters)
+app/scrapers\skillbridge_scraper.py:272:80: E501 line too long (92 > 79 characters)
+app/scrapers\skillbridge_scraper.py:274:80: E501 line too long (82 > 79 characters)
+app/scrapers\skillbridge_scraper.py:286:80: E501 line too long (105 > 79 characters)
+app/scrapers\skillbridge_scraper.py:305:80: E501 line too long (94 > 79 characters)
+app/scrapers\skillbridge_scraper.py:321:80: E501 line too long (88 > 79 characters)
+app/scrapers\skillbridge_scraper.py:425:80: E501 line too long (88 > 79 characters)
+app/scrapers\skillbridge_scraper.py:439:80: E501 line too long (87 > 79 characters)
+app/scrapers\skillbridge_scraper.py:455:80: E501 line too long (82 > 79 characters)
+app/scrapers\skillbridge_scraper.py:474:80: E501 line too long (93 > 79 characters)
+app/scrapers\skillbridge_scraper.py:478:80: E501 line too long (92 > 79 characters)
+app/scrapers\skillbridge_scraper.py:484:80: E501 line too long (84 > 79 characters)
+app/scrapers\skillbridge_scraper.py:500:80: E501 line too long (89 > 79 characters)
+app/scrapers\skillbridge_scraper.py:511:80: E501 line too long (101 > 79 characters)
+app/scrapers\skillbridge_scraper.py:518:80: E501 line too long (82 > 79 characters)
+app/scrapers\skillbridge_scraper.py:521:80: E501 line too long (89 > 79 characters)
+app/scrapers\skillbridge_scraper.py:522:80: E501 line too long (85 > 79 characters)
+app/scrapers\skillbridge_scraper.py:523:80: E501 line too long (88 > 79 characters)
+app/scrapers\skillbridge_scraper.py:529:80: E501 line too long (80 > 79 characters)
+app/scrapers\skillbridge_scraper.py:564:80: E501 line too long (80 > 79 characters)
+app/scrapers\skillbridge_scraper.py:567:80: E501 line too long (99 > 79 characters)
+app/scrapers\skillbridge_scraper.py:568:80: E501 line too long (85 > 79 characters)
+app/scrapers\skillbridge_scraper.py:569:80: E501 line too long (88 > 79 characters)
+app/scrapers\skillbridge_scraper.py:570:80: E501 line too long (81 > 79 characters)
+app/scrapers\skillbridge_scraper.py:574:80: E501 line too long (92 > 79 characters)
+app/services\ai_roadmap_generator.py:19:1: F401 'app.models.roadmap.TimelineUrgency' imported but unused
+app/services\ai_roadmap_generator.py:39:80: E501 line too long (277 > 79 characters)
+app/services\ai_roadmap_generator.py:43:80: E501 line too long (103 > 79 characters)
+app/services\ai_roadmap_generator.py:53:80: E501 line too long (111 > 79 characters)
+app/services\ai_roadmap_generator.py:57:80: E501 line too long (81 > 79 characters)
+app/services\ai_roadmap_generator.py:58:80: E501 line too long (95 > 79 characters)
+app/services\ai_roadmap_generator.py:64:80: E501 line too long (260 > 79 characters)
+app/services\ai_roadmap_generator.py:67:80: E501 line too long (84 > 79 characters)
+app/services\ai_roadmap_generator.py:70:80: E501 line too long (161 > 79 characters)
+app/services\ai_roadmap_generator.py:71:80: E501 line too long (290 > 79 characters)
+app/services\ai_roadmap_generator.py:72:80: E501 line too long (343 > 79 characters)
+app/services\ai_roadmap_generator.py:73:80: E501 line too long (233 > 79 characters)
+app/services\ai_roadmap_generator.py:74:80: E501 line too long (278 > 79 characters)
+app/services\ai_roadmap_generator.py:83:80: E501 line too long (99 > 79 characters)
+app/services\ai_roadmap_generator.py:86:80: E501 line too long (381 > 79 characters)
+app/services\ai_roadmap_generator.py:87:80: E501 line too long (292 > 79 characters)
+app/services\ai_roadmap_generator.py:90:80: E501 line too long (100 > 79 characters)
+app/services\ai_roadmap_generator.py:94:80: E501 line too long (131 > 79 characters)
+app/services\ai_roadmap_generator.py:185:80: E501 line too long (81 > 79 characters)
+app/services\ai_roadmap_generator.py:187:80: E501 line too long (82 > 79 characters)
+app/services\ai_roadmap_generator.py:267:80: E501 line too long (124 > 79 characters)
+app/services\ai_roadmap_generator.py:379:80: E501 line too long (163 > 79 characters)
+app/services\ai_roadmap_generator.py:382:80: E501 line too long (124 > 79 characters)
+app/services\ai_roadmap_generator.py:390:80: E501 line too long (86 > 79 characters)
+app/services\ai_roadmap_generator.py:397:80: E501 line too long (90 > 79 characters)
+app/services\ai_roadmap_generator.py:420:80: E501 line too long (168 > 79 characters)
+app/services\ai_roadmap_generator.py:423:80: E501 line too long (130 > 79 characters)
+app/services\ai_roadmap_generator.py:424:80: E501 line too long (80 > 79 characters)
+app/services\ai_roadmap_generator.py:425:80: E501 line too long (88 > 79 characters)
+app/services\ai_roadmap_generator.py:426:80: E501 line too long (155 > 79 characters)
+app/services\ai_roadmap_generator.py:439:80: E501 line too long (84 > 79 characters)
+app/services\ai_roadmap_generator.py:461:80: E501 line too long (113 > 79 characters)
+app/services\ai_roadmap_generator.py:594:80: E501 line too long (86 > 79 characters)
+app/services\ai_roadmap_generator.py:682:80: E501 line too long (100 > 79 characters)
+app/services\ai_roadmap_generator.py:690:80: E501 line too long (87 > 79 characters)
+app/services\ai_roadmap_generator.py:727:80: E501 line too long (88 > 79 characters)
+app/services\ai_roadmap_generator.py:730:80: E501 line too long (112 > 79 characters)
+app/services\ai_roadmap_generator.py:732:80: E501 line too long (116 > 79 characters)
+app/services\ai_roadmap_generator.py:738:80: E501 line too long (96 > 79 characters)
+app/services\ai_roadmap_generator.py:741:80: E501 line too long (105 > 79 characters)
+app/services\ai_roadmap_generator.py:742:80: E501 line too long (108 > 79 characters)
+app/services\ai_roadmap_generator.py:743:80: E501 line too long (111 > 79 characters)
+app/services\ai_roadmap_generator.py:750:80: E501 line too long (97 > 79 characters)
+app/services\ai_roadmap_generator.py:751:80: E501 line too long (108 > 79 characters)
+app/services\ai_roadmap_generator.py:756:80: E501 line too long (93 > 79 characters)
+app/services\ai_roadmap_generator.py:758:80: E501 line too long (94 > 79 characters)
+app/services\ai_roadmap_generator.py:759:80: E501 line too long (106 > 79 characters)
+app/services\ai_roadmap_generator.py:760:80: E501 line too long (107 > 79 characters)
+app/services\ai_roadmap_generator.py:761:80: E501 line too long (91 > 79 characters)
+app/services\ai_roadmap_generator.py:762:80: E501 line too long (97 > 79 characters)
+app/services\ai_roadmap_generator.py:763:80: E501 line too long (81 > 79 characters)
+app/services\ai_roadmap_generator.py:777:80: E501 line too long (84 > 79 characters)
+app/services\ai_roadmap_generator.py:791:80: E501 line too long (83 > 79 characters)
+app/services\communities_scraper.py:5:80: E501 line too long (88 > 79 characters)
+app/services\communities_scraper.py:26:80: E501 line too long (90 > 79 characters)
+app/services\communities_scraper.py:31:80: E501 line too long (83 > 79 characters)
+app/services\communities_scraper.py:35:80: E501 line too long (90 > 79 characters)
+app/services\communities_scraper.py:54:80: E501 line too long (85 > 79 characters)
+app/services\communities_scraper.py:64:80: E501 line too long (81 > 79 characters)
+app/services\communities_scraper.py:68:80: E501 line too long (82 > 79 characters)
+app/services\communities_scraper.py:92:80: E501 line too long (100 > 79 characters)
+app/services\communities_scraper.py:112:80: E501 line too long (80 > 79 characters)
+app/services\communities_scraper.py:117:80: E501 line too long (81 > 79 characters)
+app/services\communities_scraper.py:121:80: E501 line too long (81 > 79 characters)
+app/services\communities_scraper.py:124:80: E501 line too long (89 > 79 characters)
+app/services\communities_scraper.py:133:80: E501 line too long (92 > 79 characters)
+app/services\communities_scraper.py:149:80: E501 line too long (81 > 79 characters)
+app/services\communities_scraper.py:155:80: E501 line too long (103 > 79 characters)
+app/services\communities_scraper.py:168:80: E501 line too long (113 > 79 characters)
+app/services\communities_scraper.py:171:80: E501 line too long (113 > 79 characters)
+app/services\communities_scraper.py:172:80: E501 line too long (115 > 79 characters)
+app/services\communities_scraper.py:174:80: E501 line too long (122 > 79 characters)
+app/services\communities_scraper.py:176:80: E501 line too long (122 > 79 characters)
+app/services\communities_scraper.py:177:80: E501 line too long (127 > 79 characters)
+app/services\communities_scraper.py:186:80: E501 line too long (104 > 79 characters)
+app/services\communities_scraper.py:188:80: E501 line too long (114 > 79 characters)
+app/services\communities_scraper.py:189:80: E501 line too long (98 > 79 characters)
+app/services\communities_scraper.py:192:80: E501 line too long (96 > 79 characters)
+app/services\communities_scraper.py:193:80: E501 line too long (116 > 79 characters)
+app/services\communities_scraper.py:194:80: E501 line too long (121 > 79 characters)
+app/services\communities_scraper.py:197:80: E501 line too long (135 > 79 characters)
+app/services\communities_scraper.py:198:80: E501 line too long (97 > 79 characters)
+app/services\communities_scraper.py:199:80: E501 line too long (81 > 79 characters)
+app/services\communities_scraper.py:201:80: E501 line too long (92 > 79 characters)
+app/services\communities_scraper.py:244:80: E501 line too long (90 > 79 characters)
+app/services\communities_scraper.py:245:80: E501 line too long (96 > 79 characters)
+app/services\communities_scraper.py:281:80: E501 line too long (82 > 79 characters)
+app/services\erg_service.py:10:1: F401 'sqlalchemy.and_' imported but unused
+app/services\erg_service.py:22:80: E501 line too long (85 > 79 characters)
+app/services\erg_service.py:65:80: E501 line too long (84 > 79 characters)
+app/services\erg_service.py:68:80: E501 line too long (84 > 79 characters)
+app/services\erg_service.py:69:80: E501 line too long (96 > 79 characters)
+app/services\erg_service.py:73:80: E501 line too long (90 > 79 characters)
+app/services\erg_service.py:77:80: E501 line too long (86 > 79 characters)
+app/services\erg_service.py:84:80: E501 line too long (90 > 79 characters)
+app/services\erg_service.py:85:80: E501 line too long (102 > 79 characters)
+app/services\erg_service.py:101:80: E501 line too long (87 > 79 characters)
+app/services\erg_service.py:108:80: E501 line too long (102 > 79 characters)
+app/services\erg_service.py:110:80: E501 line too long (108 > 79 characters)
+app/services\erg_service.py:117:80: E501 line too long (86 > 79 characters)
+app/services\erg_service.py:127:80: E501 line too long (123 > 79 characters)
+app/services\erg_service.py:131:80: E501 line too long (110 > 79 characters)
+app/services\erg_service.py:131:102: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\erg_service.py:134:80: E501 line too long (103 > 79 characters)
+app/services\erg_service.py:134:95: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\erg_service.py:150:80: E501 line too long (93 > 79 characters)
+app/services\erg_service.py:167:80: E501 line too long (81 > 79 characters)
+app/services\erg_service.py:172:80: E501 line too long (83 > 79 characters)
+app/services\erg_service.py:189:80: E501 line too long (90 > 79 characters)
+app/services\erg_service.py:190:80: E501 line too long (90 > 79 characters)
+app/services\erg_service.py:194:80: E501 line too long (92 > 79 characters)
+app/services\erg_service.py:195:80: E501 line too long (81 > 79 characters)
+app/services\erg_service.py:199:80: E501 line too long (81 > 79 characters)
+app/services\erg_service.py:201:80: E501 line too long (93 > 79 characters)
+app/services\erg_service.py:202:80: E501 line too long (87 > 79 characters)
+app/services\erg_service.py:203:80: E501 line too long (84 > 79 characters)
+app/services\erg_service.py:204:80: E501 line too long (99 > 79 characters)
+app/services\erg_service.py:205:80: E501 line too long (102 > 79 characters)
+app/services\erg_service.py:212:80: E501 line too long (83 > 79 characters)
+app/services\erg_service.py:230:80: E501 line too long (104 > 79 characters)
+app/services\erg_service.py:240:80: E501 line too long (83 > 79 characters)
+app/services\erg_service.py:242:80: E501 line too long (81 > 79 characters)
+app/services\erg_service.py:246:80: E501 line too long (81 > 79 characters)
+app/services\erg_service.py:249:80: E501 line too long (120 > 79 characters)
+app/services\erg_service.py:250:80: E501 line too long (91 > 79 characters)
+app/services\erg_service.py:280:80: E501 line too long (82 > 79 characters)
+app/services\erg_service.py:294:80: E501 line too long (104 > 79 characters)
+app/services\erg_service.py:310:80: E501 line too long (85 > 79 characters)
+app/services\geocoding.py:18:1: F401 'typing.Tuple' imported but unused
+app/services\geocoding.py:31:9: E231 missing whitespace after ':'
+app/services\geocoding.py:31:15: E231 missing whitespace after ','
+app/services\geocoding.py:31:22: E231 missing whitespace after ','
+app/services\geocoding.py:31:27: E231 missing whitespace after ':'
+app/services\geocoding.py:31:33: E231 missing whitespace after ','
+app/services\geocoding.py:31:41: E231 missing whitespace after ','
+app/services\geocoding.py:31:46: E231 missing whitespace after ':'
+app/services\geocoding.py:31:52: E231 missing whitespace after ','
+app/services\geocoding.py:31:60: E231 missing whitespace after ','
+app/services\geocoding.py:31:65: E231 missing whitespace after ':'
+app/services\geocoding.py:31:71: E231 missing whitespace after ','
+app/services\geocoding.py:32:9: E231 missing whitespace after ':'
+app/services\geocoding.py:32:15: E231 missing whitespace after ','
+app/services\geocoding.py:32:23: E231 missing whitespace after ','
+app/services\geocoding.py:32:28: E231 missing whitespace after ':'
+app/services\geocoding.py:32:34: E231 missing whitespace after ','
+app/services\geocoding.py:32:42: E231 missing whitespace after ','
+app/services\geocoding.py:32:47: E231 missing whitespace after ':'
+app/services\geocoding.py:32:53: E231 missing whitespace after ','
+app/services\geocoding.py:32:60: E231 missing whitespace after ','
+app/services\geocoding.py:32:65: E231 missing whitespace after ':'
+app/services\geocoding.py:32:71: E231 missing whitespace after ','
+app/services\geocoding.py:33:9: E231 missing whitespace after ':'
+app/services\geocoding.py:33:15: E231 missing whitespace after ','
+app/services\geocoding.py:33:22: E231 missing whitespace after ','
+app/services\geocoding.py:33:27: E231 missing whitespace after ':'
+app/services\geocoding.py:33:33: E231 missing whitespace after ','
+app/services\geocoding.py:33:40: E231 missing whitespace after ','
+app/services\geocoding.py:33:45: E231 missing whitespace after ':'
+app/services\geocoding.py:33:51: E231 missing whitespace after ','
+app/services\geocoding.py:33:59: E231 missing whitespace after ','
+app/services\geocoding.py:33:64: E231 missing whitespace after ':'
+app/services\geocoding.py:33:70: E231 missing whitespace after ','
+app/services\geocoding.py:34:9: E231 missing whitespace after ':'
+app/services\geocoding.py:34:15: E231 missing whitespace after ','
+app/services\geocoding.py:34:22: E231 missing whitespace after ','
+app/services\geocoding.py:34:27: E231 missing whitespace after ':'
+app/services\geocoding.py:34:33: E231 missing whitespace after ','
+app/services\geocoding.py:34:40: E231 missing whitespace after ','
+app/services\geocoding.py:34:45: E231 missing whitespace after ':'
+app/services\geocoding.py:34:51: E231 missing whitespace after ','
+app/services\geocoding.py:34:58: E231 missing whitespace after ','
+app/services\geocoding.py:34:63: E231 missing whitespace after ':'
+app/services\geocoding.py:34:69: E231 missing whitespace after ','
+app/services\geocoding.py:35:9: E231 missing whitespace after ':'
+app/services\geocoding.py:35:15: E231 missing whitespace after ','
+app/services\geocoding.py:35:22: E231 missing whitespace after ','
+app/services\geocoding.py:35:27: E231 missing whitespace after ':'
+app/services\geocoding.py:35:33: E231 missing whitespace after ','
+app/services\geocoding.py:35:40: E231 missing whitespace after ','
+app/services\geocoding.py:35:45: E231 missing whitespace after ':'
+app/services\geocoding.py:35:51: E231 missing whitespace after ','
+app/services\geocoding.py:35:58: E231 missing whitespace after ','
+app/services\geocoding.py:35:63: E231 missing whitespace after ':'
+app/services\geocoding.py:35:69: E231 missing whitespace after ','
+app/services\geocoding.py:36:9: E231 missing whitespace after ':'
+app/services\geocoding.py:36:15: E231 missing whitespace after ','
+app/services\geocoding.py:36:22: E231 missing whitespace after ','
+app/services\geocoding.py:36:27: E231 missing whitespace after ':'
+app/services\geocoding.py:36:33: E231 missing whitespace after ','
+app/services\geocoding.py:36:40: E231 missing whitespace after ','
+app/services\geocoding.py:36:45: E231 missing whitespace after ':'
+app/services\geocoding.py:36:51: E231 missing whitespace after ','
+app/services\geocoding.py:36:58: E231 missing whitespace after ','
+app/services\geocoding.py:36:63: E231 missing whitespace after ':'
+app/services\geocoding.py:36:69: E231 missing whitespace after ','
+app/services\geocoding.py:37:9: E231 missing whitespace after ':'
+app/services\geocoding.py:37:15: E231 missing whitespace after ','
+app/services\geocoding.py:37:22: E231 missing whitespace after ','
+app/services\geocoding.py:37:27: E231 missing whitespace after ':'
+app/services\geocoding.py:37:33: E231 missing whitespace after ','
+app/services\geocoding.py:37:41: E231 missing whitespace after ','
+app/services\geocoding.py:37:46: E231 missing whitespace after ':'
+app/services\geocoding.py:37:52: E231 missing whitespace after ','
+app/services\geocoding.py:37:59: E231 missing whitespace after ','
+app/services\geocoding.py:37:64: E231 missing whitespace after ':'
+app/services\geocoding.py:37:70: E231 missing whitespace after ','
+app/services\geocoding.py:38:9: E231 missing whitespace after ':'
+app/services\geocoding.py:38:15: E231 missing whitespace after ','
+app/services\geocoding.py:38:22: E231 missing whitespace after ','
+app/services\geocoding.py:38:27: E231 missing whitespace after ':'
+app/services\geocoding.py:38:33: E231 missing whitespace after ','
+app/services\geocoding.py:38:40: E231 missing whitespace after ','
+app/services\geocoding.py:38:45: E231 missing whitespace after ':'
+app/services\geocoding.py:38:51: E231 missing whitespace after ','
+app/services\geocoding.py:38:59: E231 missing whitespace after ','
+app/services\geocoding.py:38:64: E231 missing whitespace after ':'
+app/services\geocoding.py:38:70: E231 missing whitespace after ','
+app/services\geocoding.py:39:9: E231 missing whitespace after ':'
+app/services\geocoding.py:39:15: E231 missing whitespace after ','
+app/services\geocoding.py:39:22: E231 missing whitespace after ','
+app/services\geocoding.py:39:27: E231 missing whitespace after ':'
+app/services\geocoding.py:39:33: E231 missing whitespace after ','
+app/services\geocoding.py:39:41: E231 missing whitespace after ','
+app/services\geocoding.py:39:46: E231 missing whitespace after ':'
+app/services\geocoding.py:39:52: E231 missing whitespace after ','
+app/services\geocoding.py:39:59: E231 missing whitespace after ','
+app/services\geocoding.py:39:64: E231 missing whitespace after ':'
+app/services\geocoding.py:39:70: E231 missing whitespace after ','
+app/services\geocoding.py:40:9: E231 missing whitespace after ':'
+app/services\geocoding.py:40:15: E231 missing whitespace after ','
+app/services\geocoding.py:40:23: E231 missing whitespace after ','
+app/services\geocoding.py:40:28: E231 missing whitespace after ':'
+app/services\geocoding.py:40:34: E231 missing whitespace after ','
+app/services\geocoding.py:40:41: E231 missing whitespace after ','
+app/services\geocoding.py:40:46: E231 missing whitespace after ':'
+app/services\geocoding.py:40:52: E231 missing whitespace after ','
+app/services\geocoding.py:40:59: E231 missing whitespace after ','
+app/services\geocoding.py:40:64: E231 missing whitespace after ':'
+app/services\geocoding.py:40:70: E231 missing whitespace after ','
+app/services\geocoding.py:41:9: E231 missing whitespace after ':'
+app/services\geocoding.py:41:15: E231 missing whitespace after ','
+app/services\geocoding.py:41:23: E231 missing whitespace after ','
+app/services\geocoding.py:41:28: E231 missing whitespace after ':'
+app/services\geocoding.py:41:34: E231 missing whitespace after ','
+app/services\geocoding.py:41:41: E231 missing whitespace after ','
+app/services\geocoding.py:41:46: E231 missing whitespace after ':'
+app/services\geocoding.py:41:52: E231 missing whitespace after ','
+app/services\geocoding.py:41:59: E231 missing whitespace after ','
+app/services\geocoding.py:41:64: E231 missing whitespace after ':'
+app/services\geocoding.py:41:70: E231 missing whitespace after ','
+app/services\geocoding.py:42:9: E231 missing whitespace after ':'
+app/services\geocoding.py:42:15: E231 missing whitespace after ','
+app/services\geocoding.py:42:22: E231 missing whitespace after ','
+app/services\geocoding.py:42:27: E231 missing whitespace after ':'
+app/services\geocoding.py:42:33: E231 missing whitespace after ','
+app/services\geocoding.py:42:40: E231 missing whitespace after ','
+app/services\geocoding.py:42:45: E231 missing whitespace after ':'
+app/services\geocoding.py:42:51: E231 missing whitespace after ','
+app/services\geocoding.py:42:59: E231 missing whitespace after ','
+app/services\geocoding.py:42:64: E231 missing whitespace after ':'
+app/services\geocoding.py:42:70: E231 missing whitespace after ','
+app/services\geocoding.py:43:9: E231 missing whitespace after ':'
+app/services\geocoding.py:43:15: E231 missing whitespace after ','
+app/services\geocoding.py:43:22: E231 missing whitespace after ','
+app/services\geocoding.py:43:27: E231 missing whitespace after ':'
+app/services\geocoding.py:43:33: E231 missing whitespace after ','
+app/services\geocoding.py:43:41: E231 missing whitespace after ','
+app/services\geocoding.py:43:46: E231 missing whitespace after ':'
+app/services\geocoding.py:43:52: E231 missing whitespace after ','
+app/services\geocoding.py:63:80: E501 line too long (95 > 79 characters)
+app/services\geocoding.py:66:80: E501 line too long (83 > 79 characters)
+app/services\geocoding.py:133:80: E501 line too long (81 > 79 characters)
+app/services\geocoding.py:147:80: E501 line too long (83 > 79 characters)
+app/services\geocoding.py:195:80: E501 line too long (106 > 79 characters)
+app/services\geocoding.py:284:80: E501 line too long (86 > 79 characters)
+app/services\linkedin_extractor.py:102:80: E501 line too long (83 > 79 characters)
+app/services\linkedin_extractor.py:118:80: E501 line too long (91 > 79 characters)
+app/services\linkedin_extractor.py:125:80: E501 line too long (87 > 79 characters)
+app/services\linkedin_extractor.py:126:80: E501 line too long (90 > 79 characters)
+app/services\networking_events_scraper.py:3:80: E501 line too long (83 > 79 characters)
+app/services\networking_events_scraper.py:10:1: F401 'sqlalchemy.select' imported but unused
+app/services\networking_events_scraper.py:19:80: E501 line too long (91 > 79 characters)
+app/services\networking_events_scraper.py:20:80: E501 line too long (94 > 79 characters)
+app/services\networking_events_scraper.py:21:80: E501 line too long (83 > 79 characters)
+app/services\networking_events_scraper.py:22:80: E501 line too long (89 > 79 characters)
+app/services\networking_events_scraper.py:23:80: E501 line too long (102 > 79 characters)
+app/services\networking_events_scraper.py:24:80: E501 line too long (97 > 79 characters)
+app/services\networking_events_scraper.py:25:80: E501 line too long (101 > 79 characters)
+app/services\networking_events_scraper.py:26:80: E501 line too long (105 > 79 characters)
+app/services\networking_events_scraper.py:27:80: E501 line too long (90 > 79 characters)
+app/services\networking_events_scraper.py:28:80: E501 line too long (100 > 79 characters)
+app/services\networking_events_scraper.py:34:80: E501 line too long (102 > 79 characters)
+app/services\networking_events_scraper.py:35:80: E501 line too long (81 > 79 characters)
+app/services\networking_events_scraper.py:38:80: E501 line too long (99 > 79 characters)
+app/services\networking_events_scraper.py:78:80: E501 line too long (88 > 79 characters)
+app/services\networking_events_scraper.py:79:80: E501 line too long (108 > 79 characters)
+app/services\networking_events_scraper.py:85:80: E501 line too long (91 > 79 characters)
+app/services\networking_events_scraper.py:92:80: E501 line too long (107 > 79 characters)
+app/services\networking_events_scraper.py:103:80: E501 line too long (87 > 79 characters)
+app/services\networking_events_scraper.py:116:80: E501 line too long (92 > 79 characters)
+app/services\news_scraper.py:11:1: F401 'datetime.timezone' imported but unused
+app/services\news_scraper.py:28:80: E501 line too long (103 > 79 characters)
+app/services\news_scraper.py:108:80: E501 line too long (86 > 79 characters)
+app/services\news_scraper.py:145:80: E501 line too long (83 > 79 characters)
+app/services\news_scraper.py:243:80: E501 line too long (84 > 79 characters)
+app/services\pipeline.py:24:1: F401 'app.scrapers.skillbridge_scraper.ScrapedProgram' imported but unused
+app/services\pipeline.py:42:80: E501 line too long (82 > 79 characters)
+app/services\pipeline.py:66:80: E501 line too long (92 > 79 characters)
+app/services\pipeline.py:67:80: E501 line too long (83 > 79 characters)
+app/services\pipeline.py:74:80: E501 line too long (88 > 79 characters)
+app/services\pipeline.py:101:80: E501 line too long (87 > 79 characters)
+app/services\pipeline.py:119:80: E501 line too long (108 > 79 characters)
+app/services\pipeline.py:120:80: E501 line too long (147 > 79 characters)
+app/services\pipeline.py:127:80: E501 line too long (80 > 79 characters)
+app/services\pipeline.py:156:44: E231 missing whitespace after ','
+app/services\pipeline.py:156:63: E231 missing whitespace after ','
+app/services\pipeline.py:156:80: E501 line too long (103 > 79 characters)
+app/services\pipeline.py:156:83: E231 missing whitespace after ','
+app/services\pipeline.py:157:49: E231 missing whitespace after ','
+app/services\pipeline.py:157:67: E231 missing whitespace after ','
+app/services\pipeline.py:157:80: E501 line too long (100 > 79 characters)
+app/services\pipeline.py:157:80: E231 missing whitespace after ','
+app/services\pipeline.py:158:51: E231 missing whitespace after ','
+app/services\pipeline.py:158:70: E231 missing whitespace after ','
+app/services\pipeline.py:158:77: E231 missing whitespace after ','
+app/services\pipeline.py:158:80: E501 line too long (96 > 79 characters)
+app/services\pipeline.py:158:84: E231 missing whitespace after ','
+app/services\pipeline.py:159:40: E231 missing whitespace after ','
+app/services\pipeline.py:159:54: E231 missing whitespace after ','
+app/services\pipeline.py:159:68: E231 missing whitespace after ','
+app/services\pipeline.py:159:79: E231 missing whitespace after ','
+app/services\pipeline.py:159:80: E501 line too long (102 > 79 characters)
+app/services\pipeline.py:159:92: E231 missing whitespace after ','
+app/services\pipeline.py:163:80: E501 line too long (136 > 79 characters)
+app/services\pipeline.py:163:119: E231 missing whitespace after ','
+app/services\pipeline.py:166:80: E501 line too long (93 > 79 characters)
+app/services\pipeline.py:180:80: E501 line too long (81 > 79 characters)
+app/services\pipeline.py:185:80: E501 line too long (81 > 79 characters)
+app/services\pipeline.py:192:80: E501 line too long (81 > 79 characters)
+app/services\pipeline.py:203:80: E501 line too long (92 > 79 characters)
+app/services\pipeline.py:203:84: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+app/services\pipeline.py:205:80: E501 line too long (106 > 79 characters)
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.CareerProgressionPath' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.Employer' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.EmployerVetStatus' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.Milestone' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.MilestonePhase' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.RoadmapMetadata' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.SalaryProgressionPoint' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.SkillBridgeLink' imported but unused
+app/services\roadmap_generator.py:24:1: F401 'app.models.roadmap.YellowRibbonSchool' imported but unused
+app/services\roadmap_generator.py:84:80: E501 line too long (82 > 79 characters)
+app/services\roadmap_generator.py:100:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:108:80: E501 line too long (89 > 79 characters)
+app/services\roadmap_generator.py:109:80: E501 line too long (126 > 79 characters)
+app/services\roadmap_generator.py:115:80: E501 line too long (94 > 79 characters)
+app/services\roadmap_generator.py:116:80: E501 line too long (113 > 79 characters)
+app/services\roadmap_generator.py:119:80: E501 line too long (83 > 79 characters)
+app/services\roadmap_generator.py:122:80: E501 line too long (111 > 79 characters)
+app/services\roadmap_generator.py:123:80: E501 line too long (140 > 79 characters)
+app/services\roadmap_generator.py:129:80: E501 line too long (108 > 79 characters)
+app/services\roadmap_generator.py:130:80: E501 line too long (130 > 79 characters)
+app/services\roadmap_generator.py:143:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:153:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:172:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:176:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:185:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:187:80: E501 line too long (100 > 79 characters)
+app/services\roadmap_generator.py:188:80: E501 line too long (99 > 79 characters)
+app/services\roadmap_generator.py:196:80: E501 line too long (98 > 79 characters)
+app/services\roadmap_generator.py:198:80: E501 line too long (94 > 79 characters)
+app/services\roadmap_generator.py:199:80: E501 line too long (101 > 79 characters)
+app/services\roadmap_generator.py:203:80: E501 line too long (84 > 79 characters)
+app/services\roadmap_generator.py:210:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:215:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:219:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:221:80: E501 line too long (111 > 79 characters)
+app/services\roadmap_generator.py:225:80: E501 line too long (108 > 79 characters)
+app/services\roadmap_generator.py:236:80: E501 line too long (87 > 79 characters)
+app/services\roadmap_generator.py:237:80: E501 line too long (84 > 79 characters)
+app/services\roadmap_generator.py:251:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:253:80: E501 line too long (84 > 79 characters)
+app/services\roadmap_generator.py:254:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:257:80: E501 line too long (88 > 79 characters)
+app/services\roadmap_generator.py:260:80: E501 line too long (89 > 79 characters)
+app/services\roadmap_generator.py:262:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:267:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:272:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:275:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:290:80: E501 line too long (84 > 79 characters)
+app/services\roadmap_generator.py:291:80: E501 line too long (86 > 79 characters)
+app/services\roadmap_generator.py:296:80: E501 line too long (81 > 79 characters)
+app/services\roadmap_generator.py:300:80: E501 line too long (83 > 79 characters)
+app/services\roadmap_generator.py:314:80: E501 line too long (131 > 79 characters)
+app/services\roadmap_generator.py:323:80: E501 line too long (86 > 79 characters)
+app/services\roadmap_generator.py:324:80: E501 line too long (82 > 79 characters)
+app/services\roadmap_generator.py:326:80: E501 line too long (102 > 79 characters)
+app/services\roadmap_generator.py:328:80: E501 line too long (101 > 79 characters)
+app/services\roadmap_generator.py:332:80: E501 line too long (82 > 79 characters)
+app/services\roadmap_generator.py:333:80: E501 line too long (84 > 79 characters)
+app/services\roadmap_generator.py:334:80: E501 line too long (85 > 79 characters)
+app/services\roadmap_generator.py:338:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:340:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:344:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:351:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:354:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:366:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:370:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:376:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:378:80: E501 line too long (96 > 79 characters)
+app/services\roadmap_generator.py:391:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:397:80: E501 line too long (80 > 79 characters)
+app/services\roadmap_generator.py:401:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:424:80: E501 line too long (80 > 79 characters)
+app/services\roadmap_generator.py:435:80: E501 line too long (96 > 79 characters)
+app/services\roadmap_generator.py:475:80: E501 line too long (88 > 79 characters)
+app/services\roadmap_generator.py:494:80: E501 line too long (121 > 79 characters)
+app/services\roadmap_generator.py:513:80: E501 line too long (110 > 79 characters)
+app/services\roadmap_generator.py:523:80: E501 line too long (95 > 79 characters)
+app/services\roadmap_generator.py:543:80: E501 line too long (85 > 79 characters)
+app/services\roadmap_generator.py:563:80: E501 line too long (115 > 79 characters)
+app/services\roadmap_generator.py:566:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:570:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:581:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:589:9: F841 local variable 'cumulative_offset' is assigned to but never used
+app/services\roadmap_generator.py:592:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:595:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:606:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:612:80: E501 line too long (86 > 79 characters)
+app/services\roadmap_generator.py:613:80: E501 line too long (88 > 79 characters)
+app/services\roadmap_generator.py:614:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:619:80: E501 line too long (87 > 79 characters)
+app/services\roadmap_generator.py:620:80: E501 line too long (92 > 79 characters)
+app/services\roadmap_generator.py:621:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:631:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:639:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:648:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:649:80: E501 line too long (88 > 79 characters)
+app/services\roadmap_generator.py:650:80: E501 line too long (115 > 79 characters)
+app/services\roadmap_generator.py:651:80: E501 line too long (112 > 79 characters)
+app/services\roadmap_generator.py:652:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:654:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:656:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:660:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:700:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:714:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:726:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:730:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:736:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:757:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:759:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:763:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:766:80: E501 line too long (91 > 79 characters)
+app/services\roadmap_generator.py:769:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:779:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:792:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:793:80: E501 line too long (81 > 79 characters)
+app/services\roadmap_generator.py:799:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:800:80: E501 line too long (82 > 79 characters)
+app/services\roadmap_generator.py:803:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:809:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:813:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:815:80: E501 line too long (87 > 79 characters)
+app/services\roadmap_generator.py:817:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:821:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:823:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:828:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:830:80: E501 line too long (127 > 79 characters)
+app/services\roadmap_generator.py:832:80: E501 line too long (105 > 79 characters)
+app/services\roadmap_generator.py:834:80: E501 line too long (132 > 79 characters)
+app/services\roadmap_generator.py:835:80: E501 line too long (96 > 79 characters)
+app/services\roadmap_generator.py:836:1: W293 blank line contains whitespace
+app/services\roadmap_generator.py:854:80: E501 line too long (82 > 79 characters)
+app/services\roadmap_generator.py:863:80: E501 line too long (81 > 79 characters)
+app/services\sankey_builder.py:3:80: E501 line too long (84 > 79 characters)
+app/services\sankey_builder.py:7:1: F401 'typing.Any' imported but unused
+app/services\sankey_builder.py:56:80: E501 line too long (92 > 79 characters)
+app/services\sankey_builder.py:62:80: E501 line too long (109 > 79 characters)
+app/services\sankey_builder.py:64:80: E501 line too long (92 > 79 characters)
+app/services\sankey_builder.py:65:80: E501 line too long (86 > 79 characters)
+app/services\sankey_builder.py:67:80: E501 line too long (119 > 79 characters)
+app/services\sankey_builder.py:127:80: E501 line too long (101 > 79 characters)
+app/services\sankey_builder.py:141:80: E501 line too long (130 > 79 characters)
+app/services\sankey_builder.py:177:80: E501 line too long (98 > 79 characters)
+app/services\sankey_builder.py:184:80: E501 line too long (89 > 79 characters)
+app/services\sankey_builder.py:194:80: E501 line too long (80 > 79 characters)
+app/services\skillbridge_enrichment.py:12:1: F401 'sqlalchemy.func' imported but unused
+app/services\skillbridge_enrichment.py:123:80: E501 line too long (83 > 79 characters)
+app/services\skillbridge_enrichment.py:127:80: E501 line too long (84 > 79 characters)
