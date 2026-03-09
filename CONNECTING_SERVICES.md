@@ -96,6 +96,19 @@ In the Vercel project: **Settings → Environment Variables**. Add these for **P
 
 Redeploy after adding or changing env vars (Vite bakes `VITE_*` in at build time).
 
+### If you see "404: NOT_FOUND" on Vercel
+
+That page means Vercel has no file for the requested URL. Fix it by:
+
+1. **Set Root Directory to `web`**  
+   In the Vercel project: **Settings → General → Root Directory**. Set it to **`web`** (no leading slash). Leave **Override** unchecked so it uses the `web` folder. Save and **redeploy**.
+2. **Confirm build output**  
+   **Settings → General**: **Output Directory** should be **`dist`** (or leave blank and let Vite preset use `dist`). After a deploy, check **Deployments → [latest] → Building** and ensure the build succeeds and outputs `dist/index.html`.
+3. **Redeploy**  
+   After changing Root Directory or Output Directory, use **Deployments → ⋮ on latest → Redeploy** (or push a small commit) so the new settings apply.
+
+Without **Root Directory = `web`**, Vercel builds from the repo root, won’t find the Vite app, and will serve nothing, which produces the generic 404 page.
+
 ### Optional: custom domain
 
 In Vercel: **Settings → Domains** → add your domain and follow the DNS steps. Then add that domain to Supabase **Redirect URLs** and **Site URL** as above.

@@ -384,11 +384,160 @@ class ErgSubmission(Base):
     def to_dict(self):
         return {
             "id": str(self.id) if self.id else None,
+            "submitted_by": str(self.submitted_by) if self.submitted_by else None,
+            "submitter_email": self.submitter_email,
+            "submitter_name": self.submitter_name,
+            "submitter_role": self.submitter_role,
             "company_name": self.company_name,
             "erg_name": self.erg_name,
+            "industry": self.industry,
+            "company_size": self.company_size,
+            "description": self.description,
+            "offerings": list(self.offerings) if self.offerings else [],
+            "founded_year": self.founded_year,
+            "member_count": self.member_count,
+            "careers_url": self.careers_url,
+            "erg_url": self.erg_url,
+            "company_website": self.company_website,
+            "contact_email": self.contact_email,
+            "linkedin_url": self.linkedin_url,
+            "headquarters_city": self.headquarters_city,
+            "headquarters_state": self.headquarters_state,
+            "has_skillbridge": self.has_skillbridge,
             "status": self.status,
+            "reviewer_notes": self.reviewer_notes,
+            "reviewed_at": self.reviewed_at.isoformat() if self.reviewed_at else None,
+            "approved_erg_id": str(self.approved_erg_id) if self.approved_erg_id else None,
             "created_at": self.created_at.isoformat() if self.created_at else None,
         }
+
+
+# ════════════════════════════════════════════════════════════
+# CAREER GRAPH MODELS
+# ════════════════════════════════════════════════════════════
+
+class Role(Base):
+    """Military and civilian roles."""
+    __tablename__ = "roles"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    code = Column(String(20), unique=True, index=True)
+    title = Column(String(255), nullable=False)
+    category = Column(String(50), nullable=False, index=True)
+    branch = Column(String(50), nullable=True, index=True)
+    industry = Column(String(100), nullable=True, index=True)
+    level = Column(String(30), nullable=False, index=True)
+    description = Column(Text, nullable=True)
+    salary_low = Column(Integer, nullable=True)
+    salary_high = Column(Integer, nullable=True)
+    typical_experience_years = Column(Integer, default=0)
+    clearance_helpful = Column(Boolean, default=False)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=datetime.utcnow)
+    updated_at = Column(DateTime(timezone=True), default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class Credential(Base):
+    """Certifications, degrees, bootcamps, and SkillBridge programs."""
+    __tablename__ = "credentials"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    code = Column(String(50), unique=True, index=True)
+    name = Column(String(255), nullable=False)
+    type = Column(String(30), nullable=False, index=True)
+    domain = Column(String(100), nullable=True, index=True)
+    provider = Column(String(255), nullable=True)
+    duration_months = Column(Float, nullable=True)
+    cost_dollars = Column(Integer, nullable=True)
+    cost_note = Column(String(255), nullable=True)
+    difficulty = Column(String(20), nullable=True)
+    description = Column(Text, nullable=True)
+    url = Column(String(500), nullable=True)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=datetime.utcnow)
+    updated_at = Column(DateTime(timezone=True), default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
+class RoleSkill(Base):
+    """Transferable skills for military roles."""
+    __tablename__ = "role_skills"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"))
+    skill_name = Column(String(255), nullable=False)
+    skill_category = Column(String(100), nullable=True)
+    relevance = Column(String(20), default="high")
+
+
+class CredentialPrereq(Base):
+    """Prerequisites for earning a credential."""
+    __tablename__ = "credential_prereqs"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    credential_id = Column(Integer, ForeignKey("credentials.id", ondelete="CASCADE"))
+    prereq_credential_id = Column(Integer, ForeignKey("credentials.id", ondelete="CASCADE"), nullable=True)
+    prereq_education = Column(String(30), nullable=True)
+    prereq_experience_years = Column(Integer, nullable=True)
+    is_required = Column(Boolean, default=False)
+    note = Column(String(255), nullable=True)
+
+
+class CareerEdge(Base):
+    """Directed edges representing career progression."""
+    __tablename__ = "career_edges"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    source_role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"), nullable=True, index=True)
+    source_credential_id = Column(Integer, ForeignKey("credentials.id", ondelete="CASCADE"), nullable=True, index=True)
+    target_role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"), nullable=True, index=True)
+    target_credential_id = Column(Integer, ForeignKey("credentials.id", ondelete="CASCADE"), nullable=True, index=True)
+    weight = Column(Integer, default=10)
+    typical_months = Column(Integer, nullable=True)
+    description = Column(Text, nullable=True)
+    path_tags = Column(ARRAY(String), nullable=True)
+    min_education = Column(String(30), nullable=True)
+    max_education = Column(String(30), nullable=True)
+    min_experience_years = Column(Integer, default=0)
+    requires_clearance = Column(Boolean, default=False)
+    is_active = Column(Boolean, default=True)
+    created_at = Column(DateTime(timezone=True), default=datetime.utcnow)
+
+
+class RoleTargetMapping(Base):
+    """Valid target roles for a given origin MOS/role."""
+    __tablename__ = "role_target_mappings"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    origin_role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"), index=True)
+    target_role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"))
+    relevance_score = Column(Float, default=0.5)
+    is_featured = Column(Boolean, default=False)
+
+
+class RoleEmployer(Base):
+    """Employers hiring for specific roles."""
+    __tablename__ = "role_employers"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    role_id = Column(Integer, ForeignKey("roles.id", ondelete="CASCADE"))
+    employer_name = Column(String(255), nullable=False)
+    is_vet_friendly = Column(Boolean, default=False)
+    location = Column(String(255), nullable=True)
+    note = Column(String(255), nullable=True)
+
+
+class DataReviewLog(Base):
+    """Audit/review status of AI generated career data."""
+    __tablename__ = "data_review_log"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    table_name = Column(String(50), nullable=False)
+    record_id = Column(Integer, nullable=False)
+    status = Column(String(20), default="pending")
+    reviewer = Column(String(100), nullable=True)
+    notes = Column(Text, nullable=True)
+    reviewed_at = Column(DateTime(timezone=True), nullable=True)
+    created_at = Column(DateTime(timezone=True), default=datetime.utcnow)
 
 
 # ─── Engine & Session factories ───

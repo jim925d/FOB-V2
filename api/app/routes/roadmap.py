@@ -28,8 +28,8 @@ from app.config import get_settings
 from app.services.roadmap_generator import RoadmapGenerator
 from app.services.ai_roadmap_generator import AIRoadmapGenerator, AICareerOptionsGenerator
 from app.services.skillbridge_enrichment import SkillBridgeEnrichmentService
+from app.services.career_graph import CareerGraphEngine
 from app.services.sankey_builder import build_full_pathfinder_response
-from app.data.progression_paths import (
     CAREER_PROGRESSION_PATHS,
     MOS_TO_PATHS,
     INDUSTRY_TO_PATHS,
@@ -237,124 +237,69 @@ def _pathfinder_body_to_request(body: dict) -> tuple[RoadmapRequest, str, dict]:
 
 @router.post("/generate", summary="Generate a personalized career roadmap")
 async def generate_roadmap(http_request: Request, body: dict = Body(default=None)):
-    """
-    Generate a complete personalized career roadmap for a veteran.
-
-    **Pathfinder payload** (from Career Pathfinder UI): send
-    current_role, target_role, certifications, education, years_experience,
-    location, timeline. Response includes sankey diagram + summary.
-
-    **Legacy payload**: send pathway, mos_code or target_role/target_industry,
-    timeline, etc. Response is milestone-based roadmap.
-    """
     if body is None:
         body = {}
-    # Pathfinder UI sends current_role/target_role as objects, or current_role_id/target_role_id + separation_timeline
-    pathfinder_mode = (
-        isinstance(body.get("current_role"), dict)
-        or isinstance(body.get("target_role"), dict)
-        or (body.get("current_role_id") is not None and body.get("target_role_id") is not None)
-        or (
-            ("timeline" in body or "separation_timeline" in body)
-            and ("current_role" in body or "target_role" in body or "current_role_id" in body or "target_role_id" in body)
-            and (body.get("education") is not None or body.get("years_experience") is not None or body.get("years_in_role") is not None or "target_role" in body or "target_role_id" in body)
-        )
-    )
-    if pathfinder_mode:
-        try:
-            request, title, inputs_echo = _pathfinder_body_to_request(body)
-        except Exception as e:
-            logger.exception("Pathfinder body parse failed: %s", e)
-            raise HTTPException(status_code=422, detail={"error": str(e)})
-    else:
-        try:
-            request = RoadmapRequest.model_validate(body)
-        except Exception as e:
-            raise HTTPException(status_code=422, detail={"error": str(e)})
-        title = None
-        inputs_echo = None
-
-    if request.pathway == Pathway.MOS_TO_CAREER:
-        if not request.mos_code and not request.duties_description and not request.target_role and not request.target_industry:
-            raise HTTPException(
-                status_code=422,
-                detail={
-                    "error": "Provide current_role (with code/title) or target_role/target_industry",
-                    "suggestion": "Select your current or most recent role and target career"
-                }
-            )
-    elif request.pathway == Pathway.DREAM_JOB:
-        if not request.target_role and not request.target_industry:
-            raise HTTPException(
-                status_code=422,
-                detail={
-                    "error": "DREAM_JOB requires target_role or target_industry",
-                    "suggestion": "Provide a target job title or industry"
-                }
-            )
-
-    use_ai = bool(settings.anthropic_api_key)
+        
+    pathfinder_mode = True
     session_factory = getattr(http_request.app.state, "session_factory", None)
-
-    # Try with DB session (enrichment + caching) when available
-    if session_factory:
+    if not session_factory:
+        raise HTTPException(status_code=500, detail="Database not available")
+        
+    async with session_factory() as session:
+        engine = CareerGraphEngine(session)
+        
+        # Extract fields
+        origin_code = body.get("current_role_id") or (body.get("current_role") or {}).get("code")
+        target_code = body.get("target_role_id") or (body.get("target_role") or {}).get("id")
+        
+        if not origin_code or not target_code:
+            # Fallback for legacy calls
+            origin_code = body.get("mos_code")
+            target_code = body.get("target_role") or body.get("target_industry")
+            
+        education = body.get("education") or body.get("education_willingness") or "some_college"
+        
+        years_str = str(body.get("years_experience") or body.get("years_in_role") or "0")
         try:
-            async with session_factory() as session:
-                skillbridge_svc = SkillBridgeEnrichmentService(session)
-
-                # Check cache first (AI-generated roadmaps only)
-                if use_ai:
-                    cache_key = _compute_cache_key(request)
-                    cached = await _check_cache(session, cache_key)
-                    if cached:
-                        logger.info("Returning cached roadmap %s", cache_key)
-                        return cached
-
-                # Build generators
-                curated = _build_curated_generator(
-                    skillbridge_service=skillbridge_svc
-                )
-
-                if use_ai:
-                    generator = AIRoadmapGenerator(
-                        skillbridge_service=skillbridge_svc,
-                        fallback_generator=curated,
-                    )
-                else:
-                    generator = curated
-
-                roadmap = await generator.generate(request)
-
-                # Cache AI-generated results
-                if use_ai and roadmap:
-                    await _store_cache(session, roadmap, request)
-
-                if pathfinder_mode and title and inputs_echo is not None:
-                    path_id = (roadmap.get("metadata") or {}).get("path_id") or (roadmap.get("alternative_roadmaps") or [{}])[0].get("path_id") or "primary"
-                    return build_full_pathfinder_response(roadmap, path_id, title, inputs_echo)
-                return roadmap
+            import re
+            m = re.search(r'\d+', years_str)
+            years = int(m.group()) if m else 0
+        except Exception:
+            years = 0
+            
+        timeline = body.get("timeline") or body.get("separation_timeline") or "6_12_months"
+        
+        try:
+            roadmap = await engine.generate(
+                origin_code=origin_code,
+                target_code=target_code,
+                education=education,
+                years_experience=years,
+                timeline=timeline,
+            )
+            
+            # Check if we built a completely empty path
+            if not roadmap.get('sankey', {}).get('nodes'):
+                origin_role = await engine._get_role(origin_code)
+                target_role = await engine._get_role(target_code)
+                suggested = await engine.get_available_targets(origin_code)
+                
+                return {
+                    "title": f"{origin_role.title if origin_role else origin_code} → {target_role.title if target_role else target_code}",
+                    "status": "no_data",
+                    "message": "We're still building career paths for this combination. Try one of these related targets:",
+                    "suggested_targets": suggested,
+                    "sankey": None,
+                    "summary": None,
+                }
+                
+            return roadmap
+            
+        except ValueError as e:
+            raise HTTPException(status_code=404, detail=str(e))
         except Exception as e:
-            logger.exception("Roadmap generate failed (with DB): %s", e)
-            raise HTTPException(status_code=500, detail={"error": str(e), "message": "Roadmap generation failed"})
-
-    # No DB or fallback: generate without enrichment/cache
-    try:
-        logger.debug("Generating roadmap without DB session")
-        curated = _build_curated_generator()
-        if use_ai:
-            generator = AIRoadmapGenerator(fallback_generator=curated)
-        else:
-            generator = curated
-        roadmap = await generator.generate(request)
-        if pathfinder_mode and title and inputs_echo is not None:
-            path_id = (roadmap.get("metadata") or {}).get("path_id") or "primary"
-            return build_full_pathfinder_response(roadmap, path_id, title, inputs_echo)
-        return roadmap
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.exception("Roadmap generate failed: %s", e)
-        raise HTTPException(status_code=500, detail={"error": str(e), "message": "Roadmap generation failed"})
+            logger.error(f"Graph engine failed: {e}")
+            raise HTTPException(status_code=500, detail="Could not generate roadmap")
 
 
 @router.get("/paths", summary="List available career progression paths")
