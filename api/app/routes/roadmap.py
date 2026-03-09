@@ -30,6 +30,7 @@ from app.services.ai_roadmap_generator import AIRoadmapGenerator, AICareerOption
 from app.services.skillbridge_enrichment import SkillBridgeEnrichmentService
 from app.services.career_graph import CareerGraphEngine
 from app.services.sankey_builder import build_full_pathfinder_response
+from app.data.progression_paths import (
     CAREER_PROGRESSION_PATHS,
     MOS_TO_PATHS,
     INDUSTRY_TO_PATHS,
