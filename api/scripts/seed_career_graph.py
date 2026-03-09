@@ -139,7 +139,9 @@ if __name__ == "__main__":
     import argparse
     from dotenv import load_dotenv
     
-    load_dotenv()
+    # Try to load from the api/.env explicitly
+    env_path = Path(__file__).parent.parent / ".env"
+    load_dotenv(dotenv_path=env_path)
     
     # Make sure we re-check api key after load_dotenv
     ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
