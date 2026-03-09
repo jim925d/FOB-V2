@@ -1,0 +1,493 @@
+{
+  "origin": {
+    "code": "25B",
+    "title": "IT Specialist"
+  },
+  "target": {
+    "code": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "industry": "technology"
+  },
+  "generated_data": {
+    "credentials": [
+      {
+        "name": "CompTIA Security+",
+        "code": "comptia_security_plus",
+        "type": "certification",
+        "domain": "cybersecurity",
+        "provider": "CompTIA",
+        "duration_months": 3,
+        "cost_dollars": 370,
+        "cost_note": "Exam fee plus study materials",
+        "difficulty": "intermediate",
+        "description": "Entry-level cybersecurity certification covering network security, compliance, threats and vulnerabilities"
+      },
+      {
+        "name": "CompTIA CySA+",
+        "code": "comptia_cysa_plus",
+        "type": "certification",
+        "domain": "cybersecurity",
+        "provider": "CompTIA",
+        "duration_months": 4,
+        "cost_dollars": 392,
+        "cost_note": "Exam fee plus study materials",
+        "difficulty": "intermediate",
+        "description": "Cybersecurity analyst certification focusing on threat detection and analysis"
+      },
+      {
+        "name": "CompTIA CASP+",
+        "code": "comptia_casp_plus",
+        "type": "certification",
+        "domain": "cybersecurity",
+        "provider": "CompTIA",
+        "duration_months": 5,
+        "cost_dollars": 392,
+        "cost_note": "Exam fee plus study materials",
+        "difficulty": "advanced",
+        "description": "Advanced-level cybersecurity certification for senior practitioners"
+      },
+      {
+        "name": "CISSP",
+        "code": "cissp",
+        "type": "certification",
+        "domain": "cybersecurity",
+        "provider": "ISC2",
+        "duration_months": 6,
+        "cost_dollars": 749,
+        "cost_note": "Exam fee plus annual maintenance",
+        "difficulty": "advanced",
+        "description": "Gold standard cybersecurity certification for senior professionals"
+      },
+      {
+        "name": "GCIH",
+        "code": "gcih",
+        "type": "certification",
+        "domain": "cybersecurity",
+        "provider": "SANS",
+        "duration_months": 4,
+        "cost_dollars": 7000,
+        "cost_note": "Includes training course",
+        "difficulty": "advanced",
+        "description": "SANS incident handling and response certification"
+      },
+      {
+        "name": "Cybersecurity Bootcamp",
+        "code": "cybersecurity_bootcamp",
+        "type": "bootcamp",
+        "domain": "cybersecurity",
+        "provider": "Various (Trilogy, General Assembly)",
+        "duration_months": 6,
+        "cost_dollars": 12000,
+        "cost_note": "Full-time intensive program",
+        "difficulty": "intermediate",
+        "description": "Intensive hands-on cybersecurity training covering tools and techniques"
+      },
+      {
+        "name": "Bachelor's in Cybersecurity",
+        "code": "bs_cybersecurity",
+        "type": "degree_bachelors",
+        "domain": "cybersecurity",
+        "provider": "Various Universities",
+        "duration_months": 48,
+        "cost_dollars": 40000,
+        "cost_note": "Using GI Bill benefits",
+        "difficulty": "intermediate",
+        "description": "Four-year degree in cybersecurity fundamentals and advanced topics"
+      },
+      {
+        "name": "Master's in Cybersecurity",
+        "code": "ms_cybersecurity",
+        "type": "degree_masters",
+        "domain": "cybersecurity",
+        "provider": "Various Universities",
+        "duration_months": 24,
+        "cost_dollars": 25000,
+        "cost_note": "Using GI Bill benefits",
+        "difficulty": "advanced",
+        "description": "Graduate-level cybersecurity education for leadership roles"
+      },
+      {
+        "name": "Microsoft SkillBridge Cybersecurity",
+        "code": "microsoft_skillbridge_cyber",
+        "type": "skillbridge",
+        "domain": "cybersecurity",
+        "provider": "Microsoft",
+        "duration_months": 6,
+        "cost_dollars": 0,
+        "cost_note": "Paid through SkillBridge program",
+        "difficulty": "intermediate",
+        "description": "DoD SkillBridge program with Microsoft focusing on cloud security"
+      },
+      {
+        "name": "Accenture Federal SkillBridge",
+        "code": "accenture_skillbridge",
+        "type": "skillbridge",
+        "domain": "cybersecurity",
+        "provider": "Accenture Federal Services",
+        "duration_months": 6,
+        "cost_dollars": 0,
+        "cost_note": "Paid through SkillBridge program",
+        "difficulty": "intermediate",
+        "description": "SkillBridge program focusing on federal cybersecurity consulting"
+      }
+    ],
+    "roles": [
+      {
+        "title": "IT Support Specialist",
+        "code": "it_support_specialist",
+        "level": "entry",
+        "industry": "technology",
+        "salary_low": 45000,
+        "salary_high": 58000,
+        "typical_experience_years": 1,
+        "description": "Provide technical support and troubleshooting for computer systems and networks"
+      },
+      {
+        "title": "Network Administrator",
+        "code": "network_administrator",
+        "level": "entry",
+        "industry": "technology",
+        "salary_low": 55000,
+        "salary_high": 72000,
+        "typical_experience_years": 2,
+        "description": "Manage and maintain computer networks and security infrastructure"
+      },
+      {
+        "title": "Junior SOC Analyst",
+        "code": "junior_soc_analyst",
+        "level": "entry",
+        "industry": "cybersecurity",
+        "salary_low": 50000,
+        "salary_high": 65000,
+        "typical_experience_years": 1,
+        "description": "Monitor security events and alerts in a Security Operations Center"
+      },
+      {
+        "title": "Information Security Specialist",
+        "code": "infosec_specialist",
+        "level": "mid",
+        "industry": "cybersecurity",
+        "salary_low": 65000,
+        "salary_high": 85000,
+        "typical_experience_years": 3,
+        "description": "Implement security policies and procedures to protect organizational data"
+      },
+      {
+        "title": "Senior Cybersecurity Analyst",
+        "code": "senior_cybersecurity_analyst",
+        "level": "senior",
+        "industry": "cybersecurity",
+        "salary_low": 95000,
+        "salary_high": 125000,
+        "typical_experience_years": 7,
+        "description": "Lead threat analysis and incident response activities"
+      },
+      {
+        "title": "Cybersecurity Manager",
+        "code": "cybersecurity_manager",
+        "level": "senior",
+        "industry": "cybersecurity",
+        "salary_low": 115000,
+        "salary_high": 150000,
+        "typical_experience_years": 10,
+        "description": "Manage cybersecurity teams and strategic security initiatives"
+      }
+    ],
+    "edges": [
+      {
+        "source": "25b_it_specialist",
+        "target": "comptia_security_plus",
+        "weight": 25,
+        "typical_months": 3,
+        "description": "Security+ is the standard entry certification for cybersecurity"
+      },
+      {
+        "source": "25b_it_specialist",
+        "target": "cybersecurity_bootcamp",
+        "weight": 20,
+        "typical_months": 6,
+        "description": "Intensive training to bridge IT experience to cybersecurity"
+      },
+      {
+        "source": "25b_it_specialist",
+        "target": "microsoft_skillbridge_cyber",
+        "weight": 15,
+        "typical_months": 6,
+        "description": "SkillBridge program leveraging military IT background"
+      },
+      {
+        "source": "comptia_security_plus",
+        "target": "comptia_cysa_plus",
+        "weight": 22,
+        "typical_months": 4,
+        "description": "Natural progression from Security+ to analyst-focused certification"
+      },
+      {
+        "source": "comptia_cysa_plus",
+        "target": "comptia_casp_plus",
+        "weight": 18,
+        "typical_months": 5,
+        "description": "Advanced certification progression for senior roles"
+      },
+      {
+        "source": "comptia_security_plus",
+        "target": "junior_soc_analyst",
+        "weight": 28,
+        "typical_months": 2,
+        "description": "Security+ qualifies for entry-level SOC positions"
+      },
+      {
+        "source": "comptia_security_plus",
+        "target": "network_administrator",
+        "weight": 20,
+        "typical_months": 1,
+        "description": "IT background plus Security+ leads to network admin roles"
+      },
+      {
+        "source": "cybersecurity_bootcamp",
+        "target": "junior_soc_analyst",
+        "weight": 25,
+        "typical_months": 1,
+        "description": "Bootcamp provides hands-on skills for SOC analyst roles"
+      },
+      {
+        "source": "microsoft_skillbridge_cyber",
+        "target": "cybersecurity_analyst",
+        "weight": 30,
+        "typical_months": 0,
+        "description": "SkillBridge often leads directly to full-time analyst positions"
+      },
+      {
+        "source": "junior_soc_analyst",
+        "target": "cybersecurity_analyst",
+        "weight": 30,
+        "typical_months": 18,
+        "description": "SOC experience is direct pathway to cybersecurity analyst"
+      },
+      {
+        "source": "network_administrator",
+        "target": "cybersecurity_analyst",
+        "weight": 22,
+        "typical_months": 24,
+        "description": "Network admin experience provides foundation for security analysis"
+      },
+      {
+        "source": "infosec_specialist",
+        "target": "cybersecurity_analyst",
+        "weight": 25,
+        "typical_months": 12,
+        "description": "Information security role transitions to analyst position"
+      },
+      {
+        "source": "cybersecurity_analyst",
+        "target": "senior_cybersecurity_analyst",
+        "weight": 28,
+        "typical_months": 36,
+        "description": "Natural career progression with experience and expertise"
+      },
+      {
+        "source": "cybersecurity_analyst",
+        "target": "cybersecurity_manager",
+        "weight": 20,
+        "typical_months": 48,
+        "description": "Management track for experienced analysts"
+      },
+      {
+        "source": "bs_cybersecurity",
+        "target": "cybersecurity_analyst",
+        "weight": 25,
+        "typical_months": 6,
+        "description": "Bachelor's degree provides direct qualification for analyst roles"
+      },
+      {
+        "source": "comptia_casp_plus",
+        "target": "senior_cybersecurity_analyst",
+        "weight": 20,
+        "typical_months": 12,
+        "description": "Advanced certification supports senior analyst roles"
+      },
+      {
+        "source": "cissp",
+        "target": "cybersecurity_manager",
+        "weight": 25,
+        "typical_months": 6,
+        "description": "CISSP is highly valued for management positions"
+      }
+    ],
+    "employers": [
+      {
+        "role_code": "it_support_specialist",
+        "employer_name": "Booz Allen Hamilton",
+        "is_vet_friendly": true,
+        "location": "McLean, VA",
+        "note": "Major government contractor with veteran hiring programs"
+      },
+      {
+        "role_code": "it_support_specialist",
+        "employer_name": "CACI",
+        "is_vet_friendly": true,
+        "location": "Reston, VA",
+        "note": "Defense contractor with strong veteran presence"
+      },
+      {
+        "role_code": "it_support_specialist",
+        "employer_name": "Microsoft",
+        "is_vet_friendly": true,
+        "location": "Seattle, WA",
+        "note": "MSSA program for military veterans"
+      },
+      {
+        "role_code": "it_support_specialist",
+        "employer_name": "Amazon",
+        "is_vet_friendly": true,
+        "location": "Arlington, VA",
+        "note": "Veterans Technical Apprenticeship program"
+      },
+      {
+        "role_code": "network_administrator",
+        "employer_name": "Lockheed Martin",
+        "is_vet_friendly": true,
+        "location": "Bethesda, MD",
+        "note": "Defense contractor with clearance opportunities"
+      },
+      {
+        "role_code": "network_administrator",
+        "employer_name": "Raytheon",
+        "is_vet_friendly": true,
+        "location": "Waltham, MA",
+        "note": "Military-focused technology company"
+      },
+      {
+        "role_code": "network_administrator",
+        "employer_name": "Cisco Systems",
+        "is_vet_friendly": true,
+        "location": "San Jose, CA",
+        "note": "Veterans hiring initiative and training programs"
+      },
+      {
+        "role_code": "network_administrator",
+        "employer_name": "IBM",
+        "is_vet_friendly": true,
+        "location": "Armonk, NY",
+        "note": "SkillsBuild for veterans program"
+      },
+      {
+        "role_code": "junior_soc_analyst",
+        "employer_name": "FireEye (Mandiant)",
+        "is_vet_friendly": false,
+        "location": "Reston, VA",
+        "note": "Cybersecurity incident response specialist"
+      },
+      {
+        "role_code": "junior_soc_analyst",
+        "employer_name": "CrowdStrike",
+        "is_vet_friendly": false,
+        "location": "Austin, TX",
+        "note": "Cloud-native security platform"
+      },
+      {
+        "role_code": "junior_soc_analyst",
+        "employer_name": "SAIC",
+        "is_vet_friendly": true,
+        "location": "Reston, VA",
+        "note": "Government contractor with security clearance roles"
+      },
+      {
+        "role_code": "junior_soc_analyst",
+        "employer_name": "General Dynamics",
+        "is_vet_friendly": true,
+        "location": "Falls Church, VA",
+        "note": "Defense contractor with cybersecurity focus"
+      },
+      {
+        "role_code": "infosec_specialist",
+        "employer_name": "Accenture Federal Services",
+        "is_vet_friendly": true,
+        "location": "Arlington, VA",
+        "note": "Federal consulting with veteran programs"
+      },
+      {
+        "role_code": "infosec_specialist",
+        "employer_name": "Deloitte",
+        "is_vet_friendly": true,
+        "location": "Washington, DC",
+        "note": "Core Leadership Program for veterans"
+      },
+      {
+        "role_code": "infosec_specialist",
+        "employer_name": "PwC",
+        "is_vet_friendly": false,
+        "location": "New York, NY",
+        "note": "Big 4 consulting with cybersecurity practice"
+      },
+      {
+        "role_code": "infosec_specialist",
+        "employer_name": "KPMG",
+        "is_vet_friendly": false,
+        "location": "McLean, VA",
+        "note": "Advisory services with government focus"
+      },
+      {
+        "role_code": "senior_cybersecurity_analyst",
+        "employer_name": "Palantir",
+        "is_vet_friendly": true,
+        "location": "Denver, CO",
+        "note": "Data analytics with government contracts"
+      },
+      {
+        "role_code": "senior_cybersecurity_analyst",
+        "employer_name": "Snowflake",
+        "is_vet_friendly": false,
+        "location": "San Mateo, CA",
+        "note": "Cloud data platform security"
+      },
+      {
+        "role_code": "senior_cybersecurity_analyst",
+        "employer_name": "Northrop Grumman",
+        "is_vet_friendly": true,
+        "location": "Falls Church, VA",
+        "note": "Aerospace and defense contractor"
+      },
+      {
+        "role_code": "senior_cybersecurity_analyst",
+        "employer_name": "BAE Systems",
+        "is_vet_friendly": true,
+        "location": "Arlington, VA",
+        "note": "Defense contractor with intelligence focus"
+      },
+      {
+        "role_code": "cybersecurity_manager",
+        "employer_name": "JPMorgan Chase",
+        "is_vet_friendly": true,
+        "location": "New York, NY",
+        "note": "ReServe program for military veterans"
+      },
+      {
+        "role_code": "cybersecurity_manager",
+        "employer_name": "Bank of America",
+        "is_vet_friendly": true,
+        "location": "Charlotte, NC",
+        "note": "Military leadership development program"
+      },
+      {
+        "role_code": "cybersecurity_manager",
+        "employer_name": "Google",
+        "is_vet_friendly": true,
+        "location": "Mountain View, CA",
+        "note": "Veterans Network employee resource group"
+      },
+      {
+        "role_code": "cybersecurity_manager",
+        "employer_name": "Meta",
+        "is_vet_friendly": false,
+        "location": "Menlo Park, CA",
+        "note": "Social media platform security leadership"
+      }
+    ],
+    "role_target_mapping": {
+      "relevance_score": 0.95,
+      "is_featured": true
+    }
+  },
+  "status": "pending_review"
+}
