@@ -495,6 +495,23 @@ class RoadmapGenerator:
                         "estimated_weeks": 8,
                     }
                 ],
+                "education": [
+                    {
+                        "education_type": "bachelor",
+                        "field_of_study": f"Related to {target_role}",
+                        "estimated_duration_months": 36,
+                        "can_use_gi_bill": True,
+                        "typical_cost_range": "$0 with GI Bill"
+                    }
+                ],
+                "skillbridge_programs": [
+                    {
+                        "program_name": f"{target_role} Apprenticeship",
+                        "company": "Industry Partner",
+                        "duration_weeks": 12,
+                        "url": ""
+                    }
+                ],
             },
             {
                 "milestone_id": f"{path_id}_m2",
