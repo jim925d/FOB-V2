@@ -90,7 +90,7 @@ def generate_path_data(mos_code, mos_title, target_code, target_title, target_in
     print(f"Generating data for {mos_code} -> {target_code}...")
     
     response = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
+        model="claude-3-5-sonnet-20240620",
         max_tokens=8192,
         system=SYSTEM_PROMPT,
         messages=[{
